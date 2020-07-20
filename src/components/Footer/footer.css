@@ -1,0 +1,103 @@
+#footer {
+    background: #7573bf;
+    color: #040182;
+    height: 15vh;
+    padding: 4% 0 6% 0;
+}
+
+#footer img {
+    max-width: 16%;
+    float: right;
+}
+
+#footer span {
+    max-width: 10%;
+    text-align: left;
+    font-size: 50%;
+}
+
+/* ----------- MEDIA QUERIES START ---------- */
+
+@media screen and (max-width: 770px) and (-webkit-min-device-pixel-ratio: 1) {
+    #footer img {
+        max-width: 60%;
+        float: right;
+        margin-right: -5%;
+    }
+}
+
+
+@media screen and (max-width: 770px) and (-webkit-min-device-pixel-ratio: 1) {
+    #footer img {
+        max-width: 60%;
+        float: right;
+        margin-right: 0;
+    }
+
+    #footer {
+       opacity: .9;
+    }
+}
+
+
+/*iPhone 5*/
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    
+}
+
+/*iPhone XR*/
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    #footer img {
+        max-width: 60%;
+        float: right;
+        margin-right: 1.5%;
+    }
+}
+
+
+/*iPhone 6/7/8*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    #footer img {
+        max-width: 60%;
+        float: right;
+        margin-right: 1.5%;
+    }
+}
+
+/*iPhone 6+/7+/8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    #footer img {
+        max-width: 60%;
+        float: right;
+        margin-right: 1.5%;
+    }
+}
+
+
+
+/*iPhone X*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    #footer img {
+        margin-right: 2.5%;
+    }
+}
+
+/*iPhone X & XS*/
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    #footer img {
+        margin-right: 2.5%;
+    }
+}
+
+/* iphone XS Max */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    #footer img {
+        margin-right: 2.5%;
+    }
+}
+
+
+
+
+
+
