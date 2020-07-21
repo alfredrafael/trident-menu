@@ -15,17 +15,77 @@
                 {"name": "Salads", "description": "Sl This is a description of the delicious entry", "categoryUrl": "/salads"},
                 {"name": "Extras", "description": "Ex This is a description of the delicious entry", "categoryUrl": "/extras"}
             ],
-                
+
             "drinks": [
-                {"name": "Coke", "price": "$1", "description": "This is a drink that usually comes in a can"},
-                {"name": "Tea", "price": "$2", "description": "This is a drink that usually is served in a cup"},
-                {"name": "Smoothie", "price": "$3", "description": "This is a drink that usually is served cold"}
+                {"name": "Hot Drinks", "price": "$1", "description": "Here goes the [Teas], [Coffees], [Chocolates]"},
+                {"name": "Cold Drinks", "price": "$2", "description": "Here goes the [Cold coffee brews, Iced teas, Bubble Teas], matcha cafes, etc"},
+                {"name": "Frappes & Smoothies", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"}
+            ],
+            "hotDrinks": [
+                {"name": "Hot Drink 1", "price": "$1", "description": "Here goes the [Teas], [Coffees], [Chocolates]"},
+                {"name": "Hot Drink 2", "price": "$2", "description": "Here goes the [Cold coffee brews, Iced teas, Bubble Teas], matcha cafes, etc"},
+                {"name": "Hot drink 3", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"}
+            ],
+            "coldDrinks": [
+                {"name": "Cold Drink 1", "price": "$1", "description": "Here goes the [Teas], [Coffees], [Chocolates]"},
+                {"name": "Cold Drink 2", "price": "$2", "description": "Here goes the [Cold coffee brews, Iced teas, Bubble Teas], matcha cafes, etc"},
+                {"name": "Cold drink 3", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"}
+            ],
+            "smoothies": [
+                {"name": "Smoothie 1", "price": "$1", "description": "Here goes the [Teas], [Coffees], [Chocolates]"},
+                {"name": "Smoothie 2", "price": "$2", "description": "Here goes the [Cold coffee brews, Iced teas, Bubble Teas], matcha cafes, etc"},
+                {"name": "Smoothie 3", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"}
             ],
 
-            "food": [
-                {"name": "Hamburger", "price": "$4"},
-                {"name": "Fries", "price": "$3"},
-                {"name": "Pizza", "price": "$4"}
+            "burgers": [
+                {"name": "Hamburger 1", "price": "$4", "description": "Nice burger"},
+                {"name": "Hamburger 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "Hamburger 3", "price": "$4", "description": "yes!"} 
+            ],
+            "sandwiches": [
+                {"name": "Sandwich 1", "price": "$4", "description": "Nice burger"},
+                {"name": "Sandwich 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "Sandwich 3", "price": "$4", "description": "yes!"} 
+            ],
+            "soups": [
+                {"name": "Soup 1", "price": "$4", "description": "Nice burger"},
+                {"name": "Soup 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "Soup 3", "price": "$4", "description": "yes!"} 
+            ],
+            "eggDishes": [
+                {"name": "Egg Dish 1", "price": "$4", "description": "Nice burger"},
+                {"name": "Egg Dish 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "Egg Dish 3", "price": "$4", "description": "yes!"} 
+            ],
+            "fromTheGriddle": [
+                {"name": "Griddle 1", "price": "$4", "description": "Nice burger"},
+                {"name": "Griddle 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "Griddle 3", "price": "$4", "description": "yes!"} 
+            ],
+            "breakfastBowls": [
+                {"name": "Breakfast Bowl 1", "price": "$4", "description": "Nice burger"},
+                {"name": "Breakfast Bowl 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "Breakfast Bowl 3", "price": "$4", "description": "yes!"} 
+            ],
+            "crispy": [
+                {"name": "Crispy Delicious 1", "price": "$4", "description": "Nice burger"},
+                {"name": "Crispy Delicious 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "Crispy Delicious 3", "price": "$4", "description": "yes!"} 
+            ],
+            "shareables": [
+                {"name": "shareables 1", "price": "$4", "description": "Nice burger"},
+                {"name": "shareables 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "shareables 3", "price": "$4", "description": "yes!"} 
+            ],
+            "salads": [
+                {"name": "Salads 1", "price": "$4", "description": "Nice burger"},
+                {"name": "Salads 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "Salads 3", "price": "$4", "description": "yes!"} 
+            ],
+            "extras": [
+                {"name": "extras 1", "price": "$4", "description": "Nice burger"},
+                {"name": "extras 2", "price": "$3", "description": "Another nice burger"},
+                {"name": "extras 3", "price": "$4", "description": "yes!"} 
             ]
         }
     }

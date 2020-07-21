@@ -21,7 +21,6 @@ const MainMenu = () => {
     const goToCategory = (e) => {
 
         e.preventDefault();
-        
     }
 
 
@@ -73,38 +72,3 @@ const MainMenu = () => {
 }
 
 export default MainMenu
-
-
-
-    
-    // e.preventDefault();
-
-    // const clickedItem = e.target.innerText;
-
-
-
-    // const matchedCategoryDescription = categories.map((item, i) => {
-    //     return item.description
-    // })
-    // const matchedCategoryName = categories.map((item, i) => {
-    //     return item.name;
-    // })
-
-    // console.log(matchedCategoryDescription);
-
-    // console.log(matchedCategoryName);
-
-        
-    //   if(clickedItem === matchedCategoryName){
-    //     return alert(matchedCategoryName); 
-    // } else if(clickedItem === matchedCategoryDescription){
-    //     return alert(matchedCategoryDescription); 
-    // } else {
-    //     alert('none');
-    // }
-
-
-     //   return console.log("CLICKED", clickedItem)
-
-// if item clicked is X, it means Y, else, it means Z... etc... 
-// const dynamicUrl = (urlSlug === '/espanol')? '/' : '/espanol';
