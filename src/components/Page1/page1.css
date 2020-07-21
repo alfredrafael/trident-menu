@@ -2,6 +2,16 @@
     color: grey !important;
 }
 
+.highlight-on-hover {
+    transition: transform .5s; 
+    position: relative; 
+}
+.highlight-on-hover:hover { 
+    box-shadow: 0 20px 70px 5px rgba(0,0,0,.15); 
+    transform: translateY(-10px); 
+    text-decoration: none;
+}
+
 /*---LAPTOPS AND ABOVE---*/
 
 /*-- specific for this project's <h1>--*/

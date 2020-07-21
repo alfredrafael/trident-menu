@@ -19,7 +19,7 @@ const App = () => {
         {/* //////////////////////////////////////////////////////////////////////// */}
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/page-2" component={Page2} />
+          <Route path="/drinks" component={Page2} />
 
           <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
 

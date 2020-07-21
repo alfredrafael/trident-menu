@@ -1,16 +1,31 @@
 [
     {
         "menu": {
+            
+            "categories": [
+                {"name": "Brevages", "description": "Brev This is a description of the delicious entry", "categoryUrl": "/drinks"},
+                {"name": "Burgers", "description": "Bur This is a description of the delicious entry", "categoryUrl": "/burgers"},
+                {"name": "Sandwiches", "description": "Sand This is a description of the delicious entry", "categoryUrl": "/Sandwiches"},
+                {"name": "Soups", "description": "Soup This is a description of the delicious entry" , "categoryUrl": "/soups"},
+                {"name": "Egg Dishes", "description": "Egg This is a description of the delicious entry", "categoryUrl": "/egg-dishes"},
+                {"name": "From The Griddle", "description": " From This is a description of the delicious entry", "categoryUrl": "/from-the-griddle"},
+                {"name": "Breakfast bowls", "description": "Bk This is a description of the delicious entry", "categoryUrl": "/breakfast-bowls"},
+                {"name": "Crispy & Delicious", "description": "Cr This is a description of the delicious entry", "categoryUrl": "/crispy-and-delicious"},
+                {"name": "Shareables", "description": "Sh This is a description of the delicious entry", "categoryUrl": "/shareables"},
+                {"name": "Salads", "description": "Sl This is a description of the delicious entry", "categoryUrl": "/salads"},
+                {"name": "Extras", "description": "Ex This is a description of the delicious entry", "categoryUrl": "/extras"}
+            ],
+                
             "drinks": [
-            {"name": "Coke", "price": "$1", "description": "This is a drink that usually comes in a can"},
-            {"name": "Tea", "price": "$2", "description": "This is a drink that usually is served in a cup"},
-            {"name": "Smoothie", "price": "$3", "description": "This is a drink that usually is served cold"}
+                {"name": "Coke", "price": "$1", "description": "This is a drink that usually comes in a can"},
+                {"name": "Tea", "price": "$2", "description": "This is a drink that usually is served in a cup"},
+                {"name": "Smoothie", "price": "$3", "description": "This is a drink that usually is served cold"}
             ],
 
             "food": [
-            {"name": "Hamburger", "price": "$4"},
-            {"name": "Fries", "price": "$3"},
-            {"name": "Pizza", "price": "$4"}
+                {"name": "Hamburger", "price": "$4"},
+                {"name": "Fries", "price": "$3"},
+                {"name": "Pizza", "price": "$4"}
             ]
         }
     }
