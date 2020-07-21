@@ -1,0 +1,17 @@
+[
+    {
+        "menu": {
+            "drinks": [
+            {"name": "Coke", "price": "$1", "description": "This is a drink that usually comes in a can"},
+            {"name": "Tea", "price": "$2", "description": "This is a drink that usually is served in a cup"},
+            {"name": "Smoothie", "price": "$3", "description": "This is a drink that usually is served cold"}
+            ],
+
+            "food": [
+            {"name": "Hamburger", "price": "$4"},
+            {"name": "Fries", "price": "$3"},
+            {"name": "Pizza", "price": "$4"}
+            ]
+        }
+    }
+]

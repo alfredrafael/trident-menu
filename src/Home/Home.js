@@ -1,6 +1,6 @@
 import React from 'react';
-import Page1 from '../Page1';
-import Navbar from '../NavigationBar';
+import Page1 from '../components/Page1';
+import Navbar from '../components/NavigationBar';
 import './home.css';
 import $ from 'jquery';
 
@@ -8,7 +8,7 @@ import $ from 'jquery';
 const Home = () => {
 
   return (
-    <React.Fragment id="home">
+    <React.Fragment>
 
       <Page1 />
 
