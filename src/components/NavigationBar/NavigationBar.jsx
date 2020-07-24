@@ -30,39 +30,102 @@ const NavigationBar = (props) => {
 
 
 
-      <Navbar color="light" light expand="md" sticky={'top'}>
+      <Navbar style={{background: 'white'}} color="" light expand="md" sticky={'top'} className="fixed-top">
       <Container>
 
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+      {/* Start working with its mobile version: removes aside, social icons smaller, add links to current page(s), more components, more real data... */}
+        <NavbarBrand style={{width: '80%', marginRight: '-23%'}} href="/">
+          <img 
+          src='https://www.alfredorafael.com/wp-content/uploads/2020/07/Alfredo_LogoAndText_Trident.png' 
+          style={{
+            maxWidth: '43%'
+          }}/>
+        </NavbarBrand>
+
+        
+
+
+
+
+
         <NavbarToggler onClick={toggle} />
+
+
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/">Page 1</NavLink>
+          <Nav className="mr-auto" navbar style={{paddingLeft: '-3%'}}>
+
+
+
+
+            <NavItem id="about-link">
+              <NavLink href="https://www.tridentbookscafe.com/about-us">About</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="/page-2">Page 2</NavLink>
-            </NavItem>
+
+
+            
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                Order
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Someting 1
+                  Trident Delivery & Pickup
                 </DropdownItem>
                 <DropdownItem>
-                  Something 2
+                  Third Party Delivery Partners
                 </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
+                
               </DropdownMenu>
             </UncontrolledDropdown>
+
+
+            <UncontrolledDropdown nav inNavbar>
+            <DropdownToggle nav caret>
+              More
+            </DropdownToggle>
+            <DropdownMenu right>
+              <DropdownItem>
+                Books
+              </DropdownItem>
+              <DropdownItem>
+                Gifts
+              </DropdownItem>
+              <DropdownItem divider />
+              <DropdownItem>
+                Cards
+              </DropdownItem>
+            </DropdownMenu>
+          </UncontrolledDropdown>
+
+
+          <NavItem>
+              <NavLink href="https://www.tridentbookscafe.com/about-us">Sign In</NavLink>
+          </NavItem>
+
+
+
+
+
+
+
+
+        
+
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
+{/*      <NavbarText>Simple Text</NavbarText>  */}
         </Collapse>
+        <div>
+          <div className="d-inline-block align-top" style={{}}>
+  
+          <ul class="social-icons icon-circle list-unstyled list-inline"
+          style={{display: 'flex', justifyContent: 'space-between', paddingTop: '3.4%'}}
+          > 
+          <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-twitter"></i></a></li>
+          <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-facebook"></i></a></li> 
+          <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-instagram"></i></a></li> 
+          </ul>
+          </div>        
+        </div>
         </Container>
       </Navbar>
       </React.Fragment>

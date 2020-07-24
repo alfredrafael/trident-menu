@@ -2,9 +2,10 @@ import React, { useEffect } from 'react';
 import './App.css';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {Container} from 'reactstrap';
 import Navbar from './components/NavigationBar/NavigationBar';
 import Footer from './components/Footer/Footer';
-import Page2 from './components/Page2/Page2';
+import Drinks from './components/Drinks/Drinks';
 import Burgers from './components/Burgers';
 import Sandwiches from './components/Sandwiches';
 import Soups from './components/Soups';
@@ -18,13 +19,16 @@ const App = () => {
   return (
     <React.Fragment>
     <Navbar />
+    
       <Router>
+      <Container>
 
+     
 
         {/* //////////////////////////////////////////////////////////////////////// */}
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/drinks" component={Page2} />
+          <Route path="/drinks" component={Drinks} />
           <Route path="/burgers" component={Burgers} />
           <Route path="/sandwiches" component={Sandwiches} />
           <Route path="/burgers" component={Soups} />
@@ -36,7 +40,7 @@ const App = () => {
 
         </Switch>
         {/* //////////////////////////////////////////////////////////////////////// */}
-
+        </Container>
 
         <Footer />
       </Router>

@@ -3,11 +3,11 @@
         "menu": {
             
             "categories": [
-                {"name": "Brevages", "description": "Brev This is a description of the delicious entry", "categoryUrl": "/drinks"},
-                {"name": "Burgers", "description": "Bur This is a description of the delicious entry", "categoryUrl": "/burgers"},
+                {"name": "Beverages", "description": "Coffee, or tea? A smoothie or a beer? How about wine? Find your drink here", "categoryUrl": "/drinks"},
+                {"name": "Burgers", "description": "From the classics to our signature burgers, take a look at our selection here", "categoryUrl": "/burgers"},
                 {"name": "Sandwiches", "description": "Sand This is a description of the delicious entry", "categoryUrl": "/Sandwiches"},
                 {"name": "Soups", "description": "Soup This is a description of the delicious entry" , "categoryUrl": "/soups"},
-                {"name": "Egg Dishes", "description": "Egg This is a description of the delicious entry", "categoryUrl": "/egg-dishes"},
+                {"name": "Egg Dishes", "description": "Select among our hearthy omeletts, eggs benny and scramble egg dishes", "categoryUrl": "/egg-dishes"},
                 {"name": "From The Griddle", "description": " From This is a description of the delicious entry", "categoryUrl": "/from-the-griddle"},
                 {"name": "Breakfast bowls", "description": "Bk This is a description of the delicious entry", "categoryUrl": "/breakfast-bowls"},
                 {"name": "Crispy & Delicious", "description": "Cr This is a description of the delicious entry", "categoryUrl": "/crispy-and-delicious"},
@@ -19,7 +19,9 @@
             "drinks": [
                 {"name": "Hot Drinks", "price": "$1", "description": "Here goes the [Teas], [Coffees], [Chocolates]"},
                 {"name": "Cold Drinks", "price": "$2", "description": "Here goes the [Cold coffee brews, Iced teas, Bubble Teas], matcha cafes, etc"},
-                {"name": "Frappes & Smoothies", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"}
+                {"name": "Frappes & Smoothies", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"},
+                {"name": "Alcohol Drinks", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"}
+
             ],
             "hotDrinks": [
                 {"name": "Hot Drink 1", "price": "$1", "description": "Here goes the [Teas], [Coffees], [Chocolates]"},
@@ -35,12 +37,19 @@
                 {"name": "Smoothie 1", "price": "$1", "description": "Here goes the [Teas], [Coffees], [Chocolates]"},
                 {"name": "Smoothie 2", "price": "$2", "description": "Here goes the [Cold coffee brews, Iced teas, Bubble Teas], matcha cafes, etc"},
                 {"name": "Smoothie 3", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"}
+            ], 
+            "alcoholDrinks": [
+                {"name": "Alcohol Drink 1", "price": "$1", "description": "Here goes the [Teas], [Coffees], [Chocolates]"},
+                {"name": "Alcohol Drink 2", "price": "$2", "description": "Here goes the [Cold coffee brews, Iced teas, Bubble Teas], matcha cafes, etc"},
+                {"name": "Alcohol Drink 3", "price": "$3", "description": "Here goes the ones in this category + [try your own smoothie]"}
             ],
 
             "burgers": [
                 {"name": "Hamburger 1", "price": "$4", "description": "Nice burger"},
                 {"name": "Hamburger 2", "price": "$3", "description": "Another nice burger"},
-                {"name": "Hamburger 3", "price": "$4", "description": "yes!"} 
+                {"name": "Hamburger 3", "price": "$4", "description": "yes!"},
+                {"name": "Hamburger 4", "price": "$4", "description": "yes!"} 
+ 
             ],
             "sandwiches": [
                 {"name": "Sandwich 1", "price": "$4", "description": "Nice burger"},
@@ -53,39 +62,63 @@
                 {"name": "Soup 3", "price": "$4", "description": "yes!"} 
             ],
             "eggDishes": [
-                {"name": "Egg Dish 1", "price": "$4", "description": "Nice burger"},
-                {"name": "Egg Dish 2", "price": "$3", "description": "Another nice burger"},
-                {"name": "Egg Dish 3", "price": "$4", "description": "yes!"} 
+                {"name": "Build your own Omelette", "price": "$8.95*", "description": "Three egg omelette served with toast. Add salmon for 3 Add turkey bacon or Beyond Sausage (v) for 2.50 Add bacon or avocado 2.25 Add Swiss, cheddar, Havarti, provolone, onion, tomato, apple, spinach, mushroom, broccoli, or peppers for .85 ea"},
+                {"name": "Two Eggs Any Style", "price": "$7.95", "description": "Served with white, wheat, or rye sourdough toast"},
+                {"name": "Huevos Rancheros", "price": "$12.95", "description": "Two eggs any style with tomatillo ranchero sauce, jack cheese, and refried beans on two corn tortillas. Served with a side of fried plantains"},
+                {"name": "Truck Stop Special", "price": "$14.95", "description": "Two eggs any style, one pancake, home fries, and your choice of sausage, bacon, or Beyond Sausage (v). Served with sourdough toast"},
+                {"name": "Fritatta", "price": "$10.95*", "description": "Three eggs cooked with tomato, bacon, and potato. Topped with melted cheddar cheese & scallions"}, 
+                {"name": "Breakfast Burrito", "price": "$10.50", "description": "Scrambled eggs with mushroom, avocado, onion, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
+                {"name": "SouthWest Breakfast Burrito", "price": "$10.50*", "description": "Scrambled eggs, tomato, jalapeños, onion, refried beans, tortilla chips, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
+                {"name": "Breakfast Sandwich", "price": "$9.50*", "description": "Two eggs any style, melted cheddar cheese, and bacon or avocado, served open-faced on your choice of bagel, English muffin, or toast"},
+                {"name": "Scrambled Egg Special", "price": "$9.95*", "description": "Three scrambled eggs served with home fries, an English muffin, and coffee"},
+                {"name": "Eggs Benedict", "price": "$13.95*", "description": "Scrambled eggs, tomato, jalapeños, onion, refried beans, tortilla chips, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
+                {"name": "Mega Benedict", "price": "$15.95*", "description": "Two eggs any style, melted cheddar cheese, and bacon or avocado, served open-faced on your choice of bagel, English muffin, or toast"},
+                {"name": "Choose Your Own Eggventure!", "price": "$12.50*", "description": "Three scrambled eggs served with home fries, an English muffin, and coffee"} 
             ],
             "fromTheGriddle": [
-                {"name": "Griddle 1", "price": "$4", "description": "Nice burger"},
-                {"name": "Griddle 2", "price": "$3", "description": "Another nice burger"},
-                {"name": "Griddle 3", "price": "$4", "description": "yes!"} 
+                {"name": "Malted Belgian Waffle", "price": "$9.95", "description": "Topped with whipped cream and your choice of bananas or strawberries. Add granola, extra strawberries, or extra bananas for 1.65 each"},
+                {"name": "Chicken & Waffles", "price": "$14", "description": "Crispy chicken tenders on a malted Belgian waffle. Served with homemade white gravy"},
+                {"name": "Buttermilk Pankcakes", "price": "$9", "description": "Two large fluffy pancakes. Add blueberries, strawberries, granola, chocolate chips, or banana in or on the side for 1.65 each"},
+                {"name": "Challah Bread French Toast", "price": "$9.95", "description": "Delicious Challah bread dipped in cinnamon egg batter, and grilled to perfection. Add strawberries, granola, chocolate chips, or bananas on the side for 1.65 each"},
+                {"name": "Lemon Ricotta Stuffed French Toast", "price": "$11.95", "description": "Tart & creamy, our thick sliced Challah Bread with lemon cheese filling comes topped with blueberry sauce"},
+                {"name": "Morning Monte Cristo", "price": "$10.95*", "description": "Two fried eggs, Canadian bacon, raspberry preserves, and cheddar cheese sandwiched between two slices of Challah bread French toast"} 
             ],
             "breakfastBowls": [
-                {"name": "Breakfast Bowl 1", "price": "$4", "description": "Nice burger"},
-                {"name": "Breakfast Bowl 2", "price": "$3", "description": "Another nice burger"},
-                {"name": "Breakfast Bowl 3", "price": "$4", "description": "yes!"} 
+                {"name": "Tofu Scramble", "price": "$11.95", "description": "Firm tofu scrambled with your choice of three vegetables: onion, tomato, spinach, mushroom, broccoli or peppers. Served with sourdough toast"},
+                {"name": "Maple Nut Granola & Fresh Fruit Salad", "price": "$10.95", "description": "Cantaloupe & honeydew melon, bananas, apples, strawberries, and grapes topped with vanilla or strawberry yogurt and granola"},
+                {"name": "Savory Bacon & Cheddar", "price": "$13*", "description": "Chopped bacon, diced onion, tomato, cheddar cheese, and two sunny eggs Served over your choice of rice, farro or quinoa"},
+                {"name": "Cranberry Maple Quinoa", "price": "$15", "description": "Quinoa, dried cranberries, apples, bananas, almonds, vanilla yogurt. Served with pure maple syrup on the side"},
+                {"name": "Kale Quinoa", "price": "$13*", "description": "Quinoa, squash, kale, chickpeas, and Asiago. Topped with two sunny eggs and a tomatillo drizzle"},
+                {"name": "Mediterranean Quinoa", "price": "$13*", "description": "Fresh spinach topped with quinoa, feta, tomatoes, chickpeas, and two sunny eggs"}  
             ],
             "crispy": [
-                {"name": "Crispy Delicious 1", "price": "$4", "description": "Nice burger"},
-                {"name": "Crispy Delicious 2", "price": "$3", "description": "Another nice burger"},
-                {"name": "Crispy Delicious 3", "price": "$4", "description": "yes!"} 
+                {"name": "French Fries", "price": "$5", "description": ""},
+                {"name": "Spicy Fries", "price": "$5.25", "description": ""},
+                {"name": "Sweet Potato Fries", "price": "$6", "description": ""},
+                {"name": "French Fries", "price": "$5", "description": ""},
+                {"name": "Spicy Fries", "price": "$5.25", "description": ""},
+                {"name": "Sweet Potato Fries", "price": "$6", "description": ""}
             ],
             "shareables": [
-                {"name": "shareables 1", "price": "$4", "description": "Nice burger"},
-                {"name": "shareables 2", "price": "$3", "description": "Another nice burger"},
-                {"name": "shareables 3", "price": "$4", "description": "yes!"} 
+                {"name": "French Fries", "price": "$5", "description": ""},
+                {"name": "Spicy Fries", "price": "$5.25", "description": ""},
+                {"name": "Sweet Potato Fries", "price": "$6", "description": ""}
             ],
             "salads": [
-                {"name": "Salads 1", "price": "$4", "description": "Nice burger"},
-                {"name": "Salads 2", "price": "$3", "description": "Another nice burger"},
-                {"name": "Salads 3", "price": "$4", "description": "yes!"} 
+                {"name": "", "price": "$", "description": "Nice burger"},
+                {"name": "", "price": "$", "description": "Another nice burger"},
+                {"name": "", "price": "$", "description": "yes!"} 
             ],
             "extras": [
-                {"name": "extras 1", "price": "$4", "description": "Nice burger"},
-                {"name": "extras 2", "price": "$3", "description": "Another nice burger"},
-                {"name": "extras 3", "price": "$4", "description": "yes!"} 
+                {"name": "", "price": "$", "description": "Nice burger"},
+                {"name": "", "price": "$", "description": "Another nice burger"},
+                {"name": "", "price": "$", "description": "yes!"} 
+            ],
+            "tridentEggwagons": [
+                {"name": "Homemade corned beef hash & eggs", "price": "$13.95*", "description": "Made with shredded brisket, potatoes, onions, cabbage, celery, carrots, and garlic. Topped with two eggs any style. Served with sourdough toast"},
+                {"name": "Smoked Salmon Scramble", "price": "$13.95*", "description": "Smoked salmon scrambled with three eggs & chives. Served with a bagel & cream cheese"},
+                {"name": "The Breakfast Skillet", "price": "$12.95*", "description": "Three eggs scrambled, sautéed with mushrooms & chicken-apple sausage or Beyond Sausage (v), and topped with Asiago cheese. Served with sourdough toast"}, 
+                {"name": "Potato Chuckwagon", "price": "$12.95*", "description": "Shredded potatoes cooked with cheddar cheese and your choice of veggies and meat. Topped with two eggs any style and served with a side of sourdough toast. Choose one: chorizo, ham, or chicken apple sausage [or get Beyond Sausage (v) for an extra .50] Choose two: mushroom, tomato, peppers, onion"} 
             ]
         }
     }

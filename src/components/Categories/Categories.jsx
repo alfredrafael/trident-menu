@@ -1,5 +1,6 @@
 import React, {useEffect, useState, Fragment} from 'react';
 import './page1.css';
+import Aside from './../Aside';
 import { Card, CardBody, Container, CardTitle, CardText, CardImg, CardImgOverlay, CardHeader, CardFooter, Button } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import menuData from '../../menuData.json';
@@ -38,14 +39,13 @@ const MainMenu = () => {
         <a href={item.categoryUrl} style={{textDecoration: 'none', color: 'inherit'}}>
         <Card key={i} className="highlight-on-hover" style={{margin: '2% 1%', borderRadius: '15px'}}>
         <CardHeader style={{background: '#7a1f1f', color: 'white', height: '20%', borderTopLeftRadius: '15px', borderTopRightRadius: '15px'}}>
-            <h3 style={{margin: '-1% 0'}}>{item.name}</h3>
+            <h4 style={{margin: '-1% 0'}}>{item.name}</h4>
         </CardHeader>
         
         <CardBody>
         <CardText style={{textDecoration: 'none', color: 'inherit'}} >{item.description}</CardText>
         
         </CardBody>
-        <CardFooter>Footer</CardFooter>
         </Card>
         </a>
         </div> 
@@ -55,18 +55,36 @@ const MainMenu = () => {
   
         <React.Fragment>
 
+        <div style={{marginTop: '5%'}}>
 
-        <Container id="page-1" className="container-flex">
-        <h1>Our Menu</h1>
 
-            <div className= "row">
-                <br/>
+        <h3 style={{
+                color: 'grey',
+                fontWeight: 'bolder',
+                marginBottom: '1%',
+            }}>
+        
+        Serving our full menu, all day
+        
+        </h3>
+
+            <div style={{display: 'flex'}}>
+            <div className="row">
+            <br/>
                 {renderCategories}
             </div>
-        <br/>
-        </Container>
+
+            <div style={{minWidth: '25%'}}>
+            
+            <Aside/>
+            
+            </div>
+           
+            </div>
 
 
+
+        </div>
         </React.Fragment>
     );
 }
