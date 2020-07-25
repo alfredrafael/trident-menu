@@ -4,6 +4,8 @@ import './hotDrinks.css';
 import Fade from 'react-reveal/Fade';
 import menuData from '../../menuData.json';
 import { $ } from 'jquery';
+import Aside from './../Aside';
+
 
 
 const hotDrinksMenu = menuData[0].menu.hotDrinks;
@@ -52,7 +54,7 @@ const HotDrinks = () => {
     }}>
 
     Our hot beverages 
-    <Button className='my-back-button' style={{float: 'right', background: '#7a1f1f', color: 'white', textDecoration: 'none'}}> 
+    <Button className='my-back-button' style={{marginLeft: '29%', background: '#7a1f1f', color: 'white', textDecoration: 'none'}}> 
     <a href="/drinks">BACK TO ALL BEVERAGES </a></Button>
 
 </h2>
@@ -62,6 +64,12 @@ const HotDrinks = () => {
     <br/>
         {renderDrinks}
     </div>
+
+    <div className="menuAside" style={{minWidth: '20%', marginLeft:'3%'}}>
+            
+            <Aside/>
+            
+            </div>
 
    
     </div>

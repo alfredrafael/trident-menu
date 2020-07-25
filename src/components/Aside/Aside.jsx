@@ -20,7 +20,7 @@ return(
             border: '1px solid grey',
             borderRadius: '15px',
 
-            height: '100vh',
+            height: '100%',
         }}>
 
 <br/>

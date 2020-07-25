@@ -117,13 +117,13 @@
             ],
 
             "burgers": [
-                {"name": "Turkey", "price": "$12.95", "description": "Handmade turkey patty with lettuce, tomato, onion, and cranberry mayo on the side"},
-                {"name": "Trident", "price": "$12.95", "description": "Juicy all-beef hamburger with lettuce, tomato, and onion on the side"},
-                {"name": "Ranchero", "price": "$4", "description": "Ground beef mixed with peppers and spices, topped with arugula and a spicy guacamole on Focaccia"},
-                {"name": "Salmon", "price": "$13.95", "description": "Delicious hand made panko-crusted patty of seasoned salmon & haddock"},
-                {"name": "Black Bean", "price": "$12.95", "description": "Made from scratch & served with fresh homemade salsa on the side"},
                 {"name": "The Beyond Burger", "price": "$16.95", "description": "A revolutionary burger that looks, cooks, & satisfies like beef"},
-                {"name": "The Impossible Burger", "price": "$18.95", "description": "Plant-based burger that mimics real meat & sizzles on the grill"}  
+                {"name": "Turkey Burger", "price": "$12.95", "description": "Handmade turkey patty with lettuce, tomato, onion, and cranberry mayo on the side"},
+                {"name": "Ranchero", "price": "$4", "description": "Ground beef mixed with peppers and spices, topped with arugula and a spicy guacamole on Focaccia"},
+                {"name": "The Impossible Burger", "price": "$18.95", "description": "Plant-based burger that mimics real meat & sizzles on the grill"}, 
+                {"name": "Black Bean", "price": "$12.95", "description": "Made from scratch & served with fresh homemade salsa on the side"},
+                {"name": "Trident Burger", "price": "$12.95", "description": "Juicy all-beef hamburger with lettuce, tomato, and onion on the side"},
+                {"name": "Salmon", "price": "$13.95", "description": "Delicious hand made panko-crusted patty of seasoned salmon & haddock"}
             ],
 
             "burgerAdds": [
@@ -166,7 +166,7 @@
             ],
 
             "hotDrinks": [
-                {"name": "Expresso", "price": "$1", "description": "Macchiatos & Americanos available, too!"},
+                {"name": "Expresso", "price": "$1", "description": "Macchiatos & Americanos available! Here goes a short description of our 'Expresso'"},
                 {"name": "House Blend Coffee", "price": "$2", "description": "Our own medium roast blend. Refills .75 (Bottomless cup with food)"},
                 {"name": "Cappuccino", "price": "$3", "description": "Topped with cocoa"},
                 {"name": "Viennese Expresso", "price": "$1", "description": "Espresso & coffee topped with whipped cream & cocoa"},

@@ -1,5 +1,6 @@
 import React, {useEffect, useState, Fragment} from 'react';
 import './page2.css';
+import Aside from './../Aside';
 import { Card, CardBody, Container, CardTitle, CardText, CardImg, CardImgOverlay, CardHeader, CardFooter, Button } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import menuData from '../../menuData.json';
@@ -60,6 +61,7 @@ Your beverages at Trident  <Button className='my-back-button' style={{float: 'ri
     </div>
 
    
+    
     </div>
 
 
