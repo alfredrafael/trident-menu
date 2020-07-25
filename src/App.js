@@ -11,6 +11,9 @@ import Sandwiches from './components/Sandwiches';
 import Soups from './components/Soups';
 import EggDishes from './components/EggDishes';
 import FromTheGriddle from './components/FromTheGriddle';
+import Eggwagons from './components/Eggwagons';
+import TridentBowls from './components/TridentBowls';
+
 import $ from 'jquery';
 
 
@@ -33,7 +36,10 @@ const App = () => {
           <Route path="/sandwiches" component={Sandwiches} />
           <Route path="/burgers" component={Soups} />
           <Route path="/egg-dishes" component={EggDishes} />
-          <Route path="/from-the-griddle" component={FromTheGriddle} />
+          <Route path="/eggwagons" component={Eggwagons} />
+          <Route path="/from-the-griddle" component={FromTheGriddle} />TridentBowls
+          <Route path="/trident-bowls" component={TridentBowls} />
+
 
 
           <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
