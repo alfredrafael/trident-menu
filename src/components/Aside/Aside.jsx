@@ -9,63 +9,84 @@ const Aside = () => {
 return(
     <React.Fragment>
     
-
     <aside 
         className='col' 
         style={{
             float: 'right', 
             textAlign: 'center',
             marginTop: '-25%',
-            borderTopLeftRadius: '15px', 
-            borderTopRightRadius: '15px'
+            // borderTopLeftRadius: '15px', 
+            // borderTopRightRadius: '15px',
+            border: '1px solid grey',
+            borderRadius: '15px',
+
+            height: '100vh',
         }}>
 
-{/*  
-<ul class="social-icons icon-circle list-unstyled list-inline"
-    style={{display: 'flex', justifyContent: 'space-between', paddingTop: '3.4%'}}
-> 
-    <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-twitter"></i></a></li>
-    <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-facebook"></i></a></li> 
-    <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-instagram"></i></a></li> 
-</ul>
-
-*/}
+<br/>
 
 
-    <h3>Make a reservation!</h3>
+<div 
+style={{
+    background: '#7a1f1f',
+    width: '100%',
+    color: 'white',
+    borderRadius: '5px',
+}}>
+    <h6 className="curbside-msg"><strong>PATIO DINNING <br/> WAITLIST</strong></h6>
+</div>
+
+
+<div className="openTable-logo">
+<a href="https://www.opentable.com/r/trident-booksellers-and-cafe-boston-2">
+<hr/>
+
     <img 
-        src='https://support.opentable.com/resource/1590622564000/OTCommunity_Assets/modal/OpenTable_logo_fullcolor.png'
+        src='https://www.alfredorafael.com/wp-content/uploads/2020/07/AlfredoOpenTable1.png'
         style={{
-            maxWidth: '70%'
+            maxWidth: '110%',
+            marginLeft: '-2.1%',
         }}
     />
+    <hr/>
+</a>
+</div>
+
+
+
+<div 
+style={{
+    background: '#7a1f1f',
+    width: '100%',
+    color: 'white',
+    borderRadius: '5px',
+}}>
+    <h6 className="curbside-msg"><strong>CURBSIDE PICK-UP AVAILABLE</strong></h6>
+</div>
 
 
 
 
-    </aside>
+
+<div className="">
+    <hr/>
+    <img 
+        src='https://www.tridentbookscafe.com/sites/tridentbookscafe.com/files/pictures/Curbside%202.png'
+        style={{
+            maxWidth: '110%',
+            marginLeft: '-5%',
+        }}
+    />
+    <hr/>
+</div>
+
+
+
+
+</aside>
 
 
     </React.Fragment>
 )}
 
 export default Aside
-
-// <script type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=standard&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant%20website'></script>
-
-
-// <link href="http://www.opentable.com/ism/feed_alt.css" rel="stylesheet" type="text/css" />
-// <div id="OT_searchWrapperAll">
-// <script type="text/javascript" src="http://www.opentable.com/ism/?rid=1234,1107"></script>
-// <noscript id="OT_noscript">
-// <a href="http://www.opentable.com/single.aspx?rid=1234&restref=1234&rtype=ism">Reserve Now
-// for Restaurant A on OpenTable.com</a>
-// <a href="http://www.opentable.com/single.aspx?rid=1107&restref=1107&rtype=ism">Reserve Now
-// for Restaurant B on OpenTable.com</a>
-// </noscript>
-// <div id="OT_logo">
-// <a href="http://www.opentable.com/home.aspx?rtype=ism" title="Powered By OpenTable">
-// <img src="http://www.opentable.com/img/buttons/Otlogo.gif" id="OT_imglogo" alt="Restaurant
-// Management Software" /></a>
-// </div>
-// </div>

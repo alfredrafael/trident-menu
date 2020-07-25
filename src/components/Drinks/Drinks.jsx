@@ -12,11 +12,6 @@ const Drinks = () => {
 
     const [drinks, setDrinks] = useState([]);
 
-    const goToCategory = (e) => {
-
-        e.preventDefault();
-    }
-
 
     useEffect(() => {
 
@@ -27,17 +22,16 @@ const Drinks = () => {
     const renderDrinks = drinks.map((item, i) => {
         return <div key={i} className="col-md-6 col-sm-12">
         
-        <a href={item.categoryUrl} style={{textDecoration: 'none', color: 'inherit'}}>
+        <a href={item.url} style={{textDecoration: 'none', color: 'inherit'}}>
         <Card key={i} className="highlight-on-hover" style={{margin: '2% 1%', borderRadius: '15px'}}>
         <CardHeader style={{background: '#7a1f1f', color: 'white', height: '20%', borderTopLeftRadius: '15px', borderTopRightRadius: '15px'}}>
-            <h3 style={{margin: '-1% 0'}}>{item.name}</h3>
+            <h4 style={{margin: '-1% 0'}}>{item.name}</h4>
         </CardHeader>
         
         <CardBody>
         <CardText style={{textDecoration: 'none', color: 'inherit'}} >{item.description}</CardText>
         
         </CardBody>
-        <CardFooter>Footer</CardFooter>
         </Card>
         </a>
         </div> 
@@ -46,17 +40,31 @@ const Drinks = () => {
     return (
   
         <React.Fragment>
+        <div style={{paddingTop: '3%'}}>
 
 
-        <Container id="page-1" className="container-flex">
-        <h1>Our Drinks</h1>
+<h2 style={{
+        fontWeight: 'bolder',
+        marginBottom: '1%',
+    }}>
 
-            <div className= "row">
-                <br/>
-                {renderDrinks}
-            </div>
-        <br/>
-        </Container>
+Your beverages at Trident  <Button className='my-back-button' style={{float: 'right', background: '#7a1f1f', color: 'white', textDecoration: 'none'}}> 
+    <a href="/">BACK TO CATEGORIES </a></Button>
+
+</h2>
+
+    <div style={{display: 'flex'}}>
+    <div className="row">
+    <br/>
+        {renderDrinks}
+    </div>
+
+   
+    </div>
+
+
+
+</div>
 
 
         </React.Fragment>

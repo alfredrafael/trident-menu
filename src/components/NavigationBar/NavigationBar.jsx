@@ -24,6 +24,10 @@ const NavigationBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
+  const onConstructionMessage = () => {
+    alert('Hello! This feature is under construction')
+  };
+
 
     return (
       <React.Fragment>
@@ -69,9 +73,9 @@ const NavigationBar = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Trident Delivery & Pickup
+                  <a style={{fontWeight: '200', textDecoration: 'none'}} href="https://www.toasttab.com/the-trident/v3#!/"> Trident Delivery & Pickup</a>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem onClick={onConstructionMessage}>
                   Third Party Delivery Partners
                 </DropdownItem>
                 
@@ -99,7 +103,7 @@ const NavigationBar = (props) => {
 
 
           <NavItem>
-              <NavLink href="https://www.tridentbookscafe.com/about-us">Sign In</NavLink>
+              <NavLink href="https://www.tridentbookscafe.com/user?destination=node/11">Sign In</NavLink>
           </NavItem>
 
 
@@ -120,9 +124,9 @@ const NavigationBar = (props) => {
           <ul class="social-icons icon-circle list-unstyled list-inline"
           style={{display: 'flex', justifyContent: 'space-between', paddingTop: '3.4%'}}
           > 
-          <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-twitter"></i></a></li>
-          <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-facebook"></i></a></li> 
-          <li> <a href="#"><i style={{backgroundColor: 'black'}} class="fa fa-instagram"></i></a></li> 
+          <li> <a href="https://twitter.com/tridentbooks" target="_blank"><i style={{backgroundColor: 'black'}} className="fa fa-twitter"></i></a></li>
+          <li> <a href="https://www.facebook.com/tridentbookscafe/" target="_blank"><i style={{backgroundColor: 'black'}} class="fa fa-facebook"></i></a></li> 
+          <li> <a href="https://www.instagram.com/tridentbooks/" target="_blank"><i style={{backgroundColor: 'black'}} class="fa fa-instagram"></i></a></li> 
           </ul>
           </div>        
         </div>

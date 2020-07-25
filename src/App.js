@@ -14,6 +14,7 @@ import FromTheGriddle from './components/FromTheGriddle';
 import Eggwagons from './components/Eggwagons';
 import TridentBowls from './components/TridentBowls';
 import BreakfastBowls from './components/BreakfastBowls';
+import HotDrinks from './components/HotDrinks';
 
 import $ from 'jquery';
 
@@ -25,6 +26,7 @@ const App = () => {
     <Navbar />
     
       <Router>
+      <div id="app-js">
       <Container>
 
      
@@ -41,6 +43,8 @@ const App = () => {
           <Route path="/burgers" component={Burgers} />
           <Route path="/sandwiches" component={Sandwiches} />
           <Route path="/breakfast-bowls" component={BreakfastBowls} />
+          <Route path="/hot-drinks" component={HotDrinks} />
+
           {/* Alcohol/Cold/Hot/Frappes drinks: create components and add here*/}
 
 
@@ -49,6 +53,7 @@ const App = () => {
         </Switch>
         {/* //////////////////////////////////////////////////////////////////////// */}
         </Container>
+        </div>
 
         <Footer />
       </Router>

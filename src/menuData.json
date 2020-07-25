@@ -159,7 +159,7 @@
             ],
 
             "drinks": [
-                {"name": "Hot Drinks", "price": "", "description": "From Coffee and Tea to Expresso and Yerba Mate", "url": "/hot-drinks"},
+                {"name": "Hot Drinks", "price": "", "description": "From Coffee and Tea to Expresso and Yerba Mate, find all our hot drinks here", "url": "/hot-drinks"},
                 {"name": "Cold Drinks", "price": "", "description": "From Iced Coffee and Diet Coke to Iced tea, find your cold drink here", "url": "/cold-drinks"},
                 {"name": "Frappes & Smoothies", "price": "", "description": "", "url": "/frappes-and-smoothies"},
                 {"name": "Alcohol Drinks", "price": "", "description": "", "url": "/alcohol-drinks"}

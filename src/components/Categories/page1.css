@@ -7,8 +7,12 @@
 }
 
 .highlight-on-hover {
-    transition: transform .5s; 
-    position: relative; 
+    transition: transform .5s;
+    position: relative;
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
 }
 
 .highlight-on-hover:hover { 

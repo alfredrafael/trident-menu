@@ -7,28 +7,16 @@ import menuData from '../../menuData.json';
 import { $ } from 'jquery';
 
 
-const drinksMenu = menuData[0].menu.drinks;
-const foodMenu = menuData[0].menu.food;
 const categoriesMenu = menuData[0].menu.categories
 
 
 const MainMenu = () => {
 
-    const [foods, setFoods] = useState([]);
-    const [drinks, setDrinks] = useState([]);
     const [categories, setCategories] = useState([]);
-
-
-    const goToCategory = (e) => {
-
-        e.preventDefault();
-    }
 
 
     useEffect(() => {
 
-        setFoods(foodMenu);
-        setDrinks(drinksMenu);
         setCategories(categoriesMenu);
 
     }, []);
@@ -55,18 +43,17 @@ const MainMenu = () => {
   
         <React.Fragment>
 
-        <div style={{marginTop: '5%'}}>
+        <div style={{paddingTop: '3%'}}>
 
 
-        <h3 style={{
-                color: 'grey',
+        <h2 style={{
                 fontWeight: 'bolder',
                 marginBottom: '1%',
             }}>
         
         Serving our full menu, all day
         
-        </h3>
+        </h2>
 
             <div style={{display: 'flex'}}>
             <div className="row">
@@ -74,7 +61,7 @@ const MainMenu = () => {
                 {renderCategories}
             </div>
 
-            <div style={{minWidth: '25%'}}>
+            <div className="menuAside" style={{minWidth: '20%', marginLeft:'3%'}}>
             
             <Aside/>
             
