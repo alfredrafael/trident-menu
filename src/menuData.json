@@ -13,25 +13,12 @@
                 {"name": "Soups", "description": "Here goes a short description of our 'Soups' category" , "categoryUrl": "/soups"},
                 {"name": "Crispy & Delicious", "description": "Here goes a short description of our 'Crispy and Delicious' category", "categoryUrl": "/crispy-and-delicious"},
                 {"name": "Salads", "description": "Here goes a short description of our 'Salads' category", "categoryUrl": "/salads"},
-                {"name": "Trident Bowls", "description": "Here goes a short description of our 'Trident Bowls' category", "categoryUrl": "/bowls"},
+                {"name": "Trident Bowls", "description": "Here goes a short description of our 'Trident Bowls' category", "categoryUrl": "/trident-bowls"},
                 {"name": "Shareables", "description": "Here goes a short description of our 'Shareables' category", "categoryUrl": "/shareables"},
                 {"name": "Burgers", "description": "From the classics to our signature burgers, take a look at our selection here", "categoryUrl": "/burgers"},
                 {"name": "Sandwiches", "description": "Here goes a short description of our 'Sandwiches' category", "categoryUrl": "/sandwiches"}
             ],
 
-            "bowlAdds": [
-                {"name": "Poached Egg... 2 Avocado", "price": "$2.50", "description": ""},
-                {"name": "Salmon Cakes, Shrimp or Steak", "price": "$5.00", "description": ""},
-                {"name": "Cheddar & Mozzarella, Feta or Gorgonzola", "price": "$.85", "description": ""},
-                {"name": "Impossible Meat (v), Tofu, Buffalo Chicken, or Chicken... 4 falafel", "price": "$3.00", "description": ""}
-            ],
-
-            "burgerAdds": [
-                {"name": "Cheddar, Dill Harvati, Provolone, smoked gouda, feta or swiss", "price": "$0.85", "description": ""},
-                {"name": "Jalapeños, Green Peppers, or Spinach", "price": "$0.85", "description": ""},
-                {"name": "Avocado, sautéed mushrooms, hummus, bacon, or turkey bacon", "price": "$.85", "description": ""},
-                {"name": "fried egg", "price": "$2.75", "description": ""}
-            ],
             "sides": [
                 {"name": "Saugage patties, bacon, turkey bacon, or canadian bacon", "price": "$3.95", "description": ""},
                 {"name": "Mega Tots", "price": "$5.95", "description": "Three jumbo golden tater tots stuffed with gooey cheddar cheese"},
@@ -40,6 +27,16 @@
                 {"name": "Homemade Corned beef hash", "price": "$7.50", "description": ""},
                 {"name": "Home fries", "price": "$3.95", "description": ""},
                 {"name": "Vanilla or Straberry Yogurt", "price": "$3.95", "description": ""}
+            ],
+            
+            "extras": [
+                {"name": "Add Pure Vermont maple syrup", "price": "2.95$", "description": "Nice burger"},
+                {"name": "Single Egg", "price": "$2.75", "description": "Another nice burger"},
+                {"name": "Single Pancake", "price": "$4.75", "description": ""},
+                {"name": "Homemade Muffin", "price": "$2.95", "description": ""},
+                {"name": "English Muffin", "price": "$2.95", "description": ""},
+                {"name": "Iggy's Sourdough Toast", "price": "$2.50", "description": ""},
+                {"name": "Toasted Bagel with Cream Cheese", "price": "$3.95", "description": ""}  
             ],
 
             "eggDishes": [
@@ -71,6 +68,13 @@
                 {"name": "Cranberry Maple Quinoa", "price": "$15", "description": "Quinoa, dried cranberries, apples, bananas, almonds, vanilla yogurt. Served with pure maple syrup on the side"},
                 {"name": "Kale Quinoa", "price": "$13*", "description": "Quinoa, squash, kale, chickpeas, and Asiago. Topped with two sunny eggs and a tomatillo drizzle"},
                 {"name": "Mediterranean Quinoa", "price": "$13*", "description": "Fresh spinach topped with quinoa, feta, tomatoes, chickpeas, and two sunny eggs"}  
+            ],
+
+            "bowlAdds": [
+                {"name": "Poached Egg... 2 Avocado", "price": "$2.50", "description": ""},
+                {"name": "Salmon Cakes, Shrimp or Steak", "price": "$5.00", "description": ""},
+                {"name": "Cheddar & Mozzarella, Feta or Gorgonzola", "price": "$.85", "description": ""},
+                {"name": "Impossible Meat (v), Tofu, Buffalo Chicken, or Chicken... 4 falafel", "price": "$3.00", "description": ""}
             ],
 
             "soups": [
@@ -122,6 +126,13 @@
                 {"name": "The Impossible Burger", "price": "$18.95", "description": "Plant-based burger that mimics real meat & sizzles on the grill"}  
             ],
 
+            "burgerAdds": [
+                {"name": "Cheddar, Dill Harvati, Provolone, smoked gouda, feta or swiss", "price": "$0.85", "description": ""},
+                {"name": "Jalapeños, Green Peppers, or Spinach", "price": "$0.85", "description": ""},
+                {"name": "Avocado, sautéed mushrooms, hummus, bacon, or turkey bacon", "price": "$.85", "description": ""},
+                {"name": "fried egg", "price": "$2.75", "description": ""}
+            ],
+
             "sandwiches": [
                 {"name": "Deluxe Grilled Cheese", "price": "$11.95", "description": "Nice burger"},
                 {"name": "Cape Codder", "price": "$12.95", "description": "Another nice burger"},
@@ -147,22 +158,13 @@
                 {"name": "Morning Monte Cristo", "price": "$10.95*", "description": "Two fried eggs, Canadian bacon, raspberry preserves, and cheddar cheese sandwiched between two slices of Challah bread French toast"} 
             ],
 
-            "extras": [
-                {"name": "Add Pure Vermont maple syrup", "price": "2.95$", "description": "Nice burger"},
-                {"name": "Single Egg", "price": "$2.75", "description": "Another nice burger"},
-                {"name": "Single Pancake", "price": "$4.75", "description": ""},
-                {"name": "Homemade Muffin", "price": "$2.95", "description": ""},
-                {"name": "English Muffin", "price": "$2.95", "description": ""},
-                {"name": "Iggy's Sourdough Toast", "price": "$2.50", "description": ""},
-                {"name": "Toasted Bagel with Cream Cheese", "price": "$3.95", "description": ""}  
-            ],
             "drinks": [
-                {"name": "Hot Drinks", "price": "", "description": "From Coffee and Tea to Expresso and Yerba Mate"},
-                {"name": "Cold Drinks", "price": "", "description": "From Iced Coffee and Diet Coke to Iced tea, find your cold drink here"},
-                {"name": "Frappes & Smoothies", "price": "", "description": ""},
-                {"name": "Alcohol Drinks", "price": "", "description": ""}
-
+                {"name": "Hot Drinks", "price": "", "description": "From Coffee and Tea to Expresso and Yerba Mate", "url": "/hot-drinks"},
+                {"name": "Cold Drinks", "price": "", "description": "From Iced Coffee and Diet Coke to Iced tea, find your cold drink here", "url": "/cold-drinks"},
+                {"name": "Frappes & Smoothies", "price": "", "description": "", "url": "/frappes-and-smoothies"},
+                {"name": "Alcohol Drinks", "price": "", "description": "", "url": "/alcohol-drinks"}
             ],
+
             "hotDrinks": [
                 {"name": "Expresso", "price": "$1", "description": "Macchiatos & Americanos available, too!"},
                 {"name": "House Blend Coffee", "price": "$2", "description": "Our own medium roast blend. Refills .75 (Bottomless cup with food)"},

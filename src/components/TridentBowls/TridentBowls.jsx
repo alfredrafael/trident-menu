@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default class TridentBowl extends React.Component {
+export default class TridentBowls extends React.Component {
 
     render() {
         return (
