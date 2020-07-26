@@ -15,6 +15,8 @@ import Eggwagons from './components/Eggwagons';
 import TridentBowls from './components/TridentBowls';
 import BreakfastBowls from './components/BreakfastBowls';
 import HotDrinks from './components/HotDrinks';
+import Aside from './components/Aside';
+import './components/Aside/aside.css';
 
 import $ from 'jquery';
 
@@ -52,7 +54,9 @@ const App = () => {
 
         </Switch>
         {/* //////////////////////////////////////////////////////////////////////// */}
+        
         </Container>
+       
         </div>
 
         <Footer />

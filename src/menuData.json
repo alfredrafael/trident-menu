@@ -161,8 +161,8 @@
             "drinks": [
                 {"name": "Hot Drinks", "price": "", "description": "From Coffee and Tea to Expresso and Yerba Mate, find all our hot drinks here", "url": "/hot-drinks"},
                 {"name": "Cold Drinks", "price": "", "description": "From Iced Coffee and Diet Coke to Iced tea, find your cold drink here", "url": "/cold-drinks"},
-                {"name": "Frappes & Smoothies", "price": "", "description": "", "url": "/frappes-and-smoothies"},
-                {"name": "Alcohol Drinks", "price": "", "description": "", "url": "/alcohol-drinks"}
+                {"name": "Frappes & Smoothies", "price": "", "description": "Choose among our house-made epic Smoothies, or make your own!", "url": "/frappes-and-smoothies"},
+                {"name": "Alcohol Drinks", "price": "", "description": "From draft beers to our selection of red and white wine, you may find your drink here ", "url": "/alcohol-drinks"}
             ],
 
             "hotDrinks": [

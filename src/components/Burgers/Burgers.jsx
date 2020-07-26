@@ -64,11 +64,7 @@ const HotDrinks = () => {
         {renderBurgers}
     </div>
 
-    <div className="menuAside" style={{minWidth: '20%', marginLeft:'3%'}}>
-            
-            <Aside/>
-            
-            </div>
+  
 
    
     </div>

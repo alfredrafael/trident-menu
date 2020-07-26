@@ -1,5 +1,5 @@
 import React, {useEffect, useState, Fragment} from 'react';
-import './page1.css';
+import './categories.css';
 import Aside from './../Aside';
 import { Card, CardBody, Container, CardTitle, CardText, CardImg, CardImgOverlay, CardHeader, CardFooter, Button } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
