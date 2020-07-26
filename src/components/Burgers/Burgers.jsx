@@ -58,7 +58,6 @@ const HotDrinks = () => {
 
 </h2>
 
-    <div style={{display: 'flex'}}>
     <div className="row">
     <br/>
         {renderBurgers}
@@ -67,7 +66,6 @@ const HotDrinks = () => {
   
 
    
-    </div>
 
 
 

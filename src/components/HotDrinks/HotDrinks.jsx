@@ -45,32 +45,37 @@ const HotDrinks = () => {
     return (
   
         <React.Fragment>
+       
+       
+       
+       
+       
         <div style={{paddingTop: '3%'}}>
 
 
-<h2 style={{
-        fontWeight: 'bolder',
-        marginBottom: '1%',
-    }}>
-
-    Our hot beverages 
-    <Button className='my-back-button' style={{marginLeft: '29%', background: '#7a1f1f', color: 'white', textDecoration: 'none'}}> 
-    <a href="/drinks">BACK TO ALL BEVERAGES </a></Button>
-
-</h2>
-
-    <div style={{display: 'flex'}}>
-    <div className="row">
-    <br/>
-        {renderDrinks}
-    </div>
-
-   
-    </div>
-
-
-
-</div>
+        <h2 style={{
+                fontWeight: 'bolder',
+                marginBottom: '1%',
+            }}>
+        
+            Hot Drinks 
+            <Button className='my-back-button' style={{marginLeft: '63%', background: '#7a1f1f', color: 'white', textDecoration: 'none'}}> 
+            <a href="/drinks">BACK TO DRINKS</a></Button>
+        
+        </h2>
+        
+            <div className="row">
+            <br/>
+                {renderDrinks}
+            </div>
+        
+          
+        
+           
+        
+        
+        
+        </div>
 
 
         </React.Fragment>

@@ -1,6 +1,6 @@
 import React, {useEffect, useState, Fragment} from 'react';
 import './categories.css';
-import Aside from './../Aside';
+import Aside from '../Aside/Aside';
 import { Card, CardBody, Container, CardTitle, CardText, CardImg, CardImgOverlay, CardHeader, CardFooter, Button } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import menuData from '../../menuData.json';
@@ -55,20 +55,10 @@ const MainMenu = () => {
         
         </h2>
 
-            <div style={{display: 'flex'}}>
             <div className="row">
             <br/>
                 {renderCategories}
             </div>
-
-            <div className="menuAside" style={{minWidth: '20%', marginLeft:'3%'}}>
-            
-            <Aside/>
-            
-            </div>
-           
-            </div>
-
 
 
         </div>

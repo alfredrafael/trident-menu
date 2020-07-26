@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
+import './components/Aside/aside.css';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import {Container} from 'reactstrap';
@@ -31,7 +32,8 @@ const App = () => {
       <div id="app-js">
       <Container>
 
-     
+      <div style={{display:'flex'}}> 
+
 
         {/* //////////////////////////////////////////////////////////////////////// */}
         <Switch>
@@ -55,6 +57,27 @@ const App = () => {
         </Switch>
         {/* //////////////////////////////////////////////////////////////////////// */}
         
+
+        
+          <div 
+          className="menuAside" 
+          style={{
+            maxWidth: '20%', 
+            marginLeft:'3%',
+            marginTop: '7%'
+          
+          }}>
+            
+            <Aside/>
+            
+        </div>
+      </div>
+
+
+
+
+
+
         </Container>
        
         </div>
