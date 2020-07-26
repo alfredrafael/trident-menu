@@ -48,7 +48,7 @@ const MainMenu = () => {
 
         <h2 style={{
                 fontWeight: 'bolder',
-                marginBottom: '1%',
+                marginBottom: '1.3%',
             }}>
         
         Serving our full menu, all day

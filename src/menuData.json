@@ -20,142 +20,142 @@
             ],
 
             "sides": [
-                {"name": "Saugage patties, bacon, turkey bacon, or canadian bacon", "price": "$3.95", "description": ""},
-                {"name": "Mega Tots", "price": "$5.95", "description": "Three jumbo golden tater tots stuffed with gooey cheddar cheese"},
-                {"name": "Beyond Sausage", "price": "$4.25", "description": ""},
-                {"name": "Smoked Salmon", "price": "$7.95", "description": ""},
-                {"name": "Homemade Corned beef hash", "price": "$7.50", "description": ""},
-                {"name": "Home fries", "price": "$3.95", "description": ""},
-                {"name": "Vanilla or Straberry Yogurt", "price": "$3.95", "description": ""}
+                {"name": "Saugage patties, bacon, turkey bacon, or canadian bacon", "price": "3.95", "description": ""},
+                {"name": "Mega Tots", "price": "5.95", "description": "Three jumbo golden tater tots stuffed with gooey cheddar cheese"},
+                {"name": "Beyond Sausage", "price": "4.25", "description": ""},
+                {"name": "Smoked Salmon", "price": "7.95", "description": ""},
+                {"name": "Homemade Corned beef hash", "price": "7.50", "description": ""},
+                {"name": "Home fries", "price": "3.95", "description": ""},
+                {"name": "Vanilla or Straberry Yogurt", "price": "3.95", "description": ""}
             ],
             
             "extras": [
                 {"name": "Add Pure Vermont maple syrup", "price": "2.95$", "description": "Nice burger"},
-                {"name": "Single Egg", "price": "$2.75", "description": "Another nice burger"},
-                {"name": "Single Pancake", "price": "$4.75", "description": ""},
-                {"name": "Homemade Muffin", "price": "$2.95", "description": ""},
-                {"name": "English Muffin", "price": "$2.95", "description": ""},
-                {"name": "Iggy's Sourdough Toast", "price": "$2.50", "description": ""},
-                {"name": "Toasted Bagel with Cream Cheese", "price": "$3.95", "description": ""}  
+                {"name": "Single Egg", "price": "2.75", "description": "Another nice burger"},
+                {"name": "Single Pancake", "price": "4.75", "description": ""},
+                {"name": "Homemade Muffin", "price": "2.95", "description": ""},
+                {"name": "English Muffin", "price": "2.95", "description": ""},
+                {"name": "Iggy's Sourdough Toast", "price": "2.50", "description": ""},
+                {"name": "Toasted Bagel with Cream Cheese", "price": "3.95", "description": ""}  
             ],
 
             "eggDishes": [
-                {"name": "Build your own Omelette", "price": "$8.95*", "description": "Three egg omelette served with toast. Add salmon for 3 Add turkey bacon or Beyond Sausage (v) for 2.50 Add bacon or avocado 2.25 Add Swiss, cheddar, Havarti, provolone, onion, tomato, apple, spinach, mushroom, broccoli, or peppers for .85 ea"},
-                {"name": "Two Eggs Any Style", "price": "$7.95", "description": "Served with white, wheat, or rye sourdough toast"},
-                {"name": "Huevos Rancheros", "price": "$12.95", "description": "Two eggs any style with tomatillo ranchero sauce, jack cheese, and refried beans on two corn tortillas. Served with a side of fried plantains"},
-                {"name": "Truck Stop Special", "price": "$14.95", "description": "Two eggs any style, one pancake, home fries, and your choice of sausage, bacon, or Beyond Sausage (v). Served with sourdough toast"},
-                {"name": "Fritatta", "price": "$10.95*", "description": "Three eggs cooked with tomato, bacon, and potato. Topped with melted cheddar cheese & scallions"}, 
-                {"name": "Breakfast Burrito", "price": "$10.50", "description": "Scrambled eggs with mushroom, avocado, onion, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
-                {"name": "SouthWest Breakfast Burrito", "price": "$10.50*", "description": "Scrambled eggs, tomato, jalapeños, onion, refried beans, tortilla chips, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
-                {"name": "Breakfast Sandwich", "price": "$9.50*", "description": "Two eggs any style, melted cheddar cheese, and bacon or avocado, served open-faced on your choice of bagel, English muffin, or toast"},
-                {"name": "Scrambled Egg Special", "price": "$9.95*", "description": "Three scrambled eggs served with home fries, an English muffin, and coffee"},
-                {"name": "Eggs Benedict", "price": "$13.95*", "description": "Scrambled eggs, tomato, jalapeños, onion, refried beans, tortilla chips, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
-                {"name": "Mega Benedict", "price": "$15.95*", "description": "Two eggs any style, melted cheddar cheese, and bacon or avocado, served open-faced on your choice of bagel, English muffin, or toast"},
-                {"name": "Choose Your Own Eggventure!", "price": "$12.50*", "description": "Three scrambled eggs served with home fries, an English muffin, and coffee"} 
+                {"name": "Build your own Omelette", "price": "8.95*", "description": "Three egg omelette served with toast. Add salmon for 3 Add turkey bacon or Beyond Sausage (v) for 2.50 Add bacon or avocado 2.25 Add Swiss, cheddar, Havarti, provolone, onion, tomato, apple, spinach, mushroom, broccoli, or peppers for .85 ea"},
+                {"name": "Two Eggs Any Style", "price": "7.95", "description": "Served with white, wheat, or rye sourdough toast"},
+                {"name": "Huevos Rancheros", "price": "12.95", "description": "Two eggs any style with tomatillo ranchero sauce, jack cheese, and refried beans on two corn tortillas. Served with a side of fried plantains"},
+                {"name": "Truck Stop Special", "price": "14.95", "description": "Two eggs any style, one pancake, home fries, and your choice of sausage, bacon, or Beyond Sausage (v). Served with sourdough toast"},
+                {"name": "Fritatta", "price": "10.95*", "description": "Three eggs cooked with tomato, bacon, and potato. Topped with melted cheddar cheese & scallions"}, 
+                {"name": "Breakfast Burrito", "price": "10.50", "description": "Scrambled eggs with mushroom, avocado, onion, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
+                {"name": "SouthWest Breakfast Burrito", "price": "10.50*", "description": "Scrambled eggs, tomato, jalapeños, onion, refried beans, tortilla chips, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
+                {"name": "Breakfast Sandwich", "price": "9.50*", "description": "Two eggs any style, melted cheddar cheese, and bacon or avocado, served open-faced on your choice of bagel, English muffin, or toast"},
+                {"name": "Scrambled Egg Special", "price": "9.95*", "description": "Three scrambled eggs served with home fries, an English muffin, and coffee"},
+                {"name": "Eggs Benedict", "price": "13.95*", "description": "Scrambled eggs, tomato, jalapeños, onion, refried beans, tortilla chips, and cheddar wrapped in a warm flour tortilla. Served with a side of fresh salsa"},
+                {"name": "Mega Benedict", "price": "15.95*", "description": "Two eggs any style, melted cheddar cheese, and bacon or avocado, served open-faced on your choice of bagel, English muffin, or toast"},
+                {"name": "Choose Your Own Eggventure!", "price": "12.50*", "description": "Three scrambled eggs served with home fries, an English muffin, and coffee"} 
             ],
 
             "tridentEggwagons": [
-                {"name": "Homemade corned beef hash & eggs", "price": "$13.95*", "description": "Made with shredded brisket, potatoes, onions, cabbage, celery, carrots, and garlic. Topped with two eggs any style. Served with sourdough toast"},
-                {"name": "Smoked Salmon Scramble", "price": "$13.95*", "description": "Smoked salmon scrambled with three eggs & chives. Served with a bagel & cream cheese"},
-                {"name": "The Breakfast Skillet", "price": "$12.95*", "description": "Three eggs scrambled, sautéed with mushrooms & chicken-apple sausage or Beyond Sausage (v), and topped with Asiago cheese. Served with sourdough toast"}, 
-                {"name": "Potato Chuckwagon", "price": "$12.95*", "description": "Shredded potatoes cooked with cheddar cheese and your choice of veggies and meat. Topped with two eggs any style and served with a side of sourdough toast. Choose one: chorizo, ham, or chicken apple sausage [or get Beyond Sausage (v) for an extra .50] Choose two: mushroom, tomato, peppers, onion"} 
+                {"name": "Homemade corned beef hash & eggs", "price": "13.95*", "description": "Made with shredded brisket, potatoes, onions, cabbage, celery, carrots, and garlic. Topped with two eggs any style. Served with sourdough toast"},
+                {"name": "Smoked Salmon Scramble", "price": "13.95*", "description": "Smoked salmon scrambled with three eggs & chives. Served with a bagel & cream cheese"},
+                {"name": "The Breakfast Skillet", "price": "12.95*", "description": "Three eggs scrambled, sautéed with mushrooms & chicken-apple sausage or Beyond Sausage (v), and topped with Asiago cheese. Served with sourdough toast"}, 
+                {"name": "Potato Chuckwagon", "price": "12.95*", "description": "Shredded potatoes cooked with cheddar cheese and your choice of veggies and meat. Topped with two eggs any style and served with a side of sourdough toast. Choose one: chorizo, ham, or chicken apple sausage [or get Beyond Sausage (v) for an extra .50] Choose two: mushroom, tomato, peppers, onion"} 
             ],
 
             "breakfastBowls": [
-                {"name": "Tofu Scramble", "price": "$11.95", "description": "Firm tofu scrambled with your choice of three vegetables: onion, tomato, spinach, mushroom, broccoli or peppers. Served with sourdough toast"},
-                {"name": "Maple Nut Granola & Fresh Fruit Salad", "price": "$10.95", "description": "Cantaloupe & honeydew melon, bananas, apples, strawberries, and grapes topped with vanilla or strawberry yogurt and granola"},
-                {"name": "Savory Bacon & Cheddar", "price": "$13*", "description": "Chopped bacon, diced onion, tomato, cheddar cheese, and two sunny eggs Served over your choice of rice, farro or quinoa"},
-                {"name": "Cranberry Maple Quinoa", "price": "$15", "description": "Quinoa, dried cranberries, apples, bananas, almonds, vanilla yogurt. Served with pure maple syrup on the side"},
-                {"name": "Kale Quinoa", "price": "$13*", "description": "Quinoa, squash, kale, chickpeas, and Asiago. Topped with two sunny eggs and a tomatillo drizzle"},
-                {"name": "Mediterranean Quinoa", "price": "$13*", "description": "Fresh spinach topped with quinoa, feta, tomatoes, chickpeas, and two sunny eggs"}  
+                {"name": "Tofu Scramble", "price": "11.95", "description": "Firm tofu scrambled with your choice of three vegetables: onion, tomato, spinach, mushroom, broccoli or peppers. Served with sourdough toast"},
+                {"name": "Maple Nut Granola & Fresh Fruit Salad", "price": "10.95", "description": "Cantaloupe & honeydew melon, bananas, apples, strawberries, and grapes topped with vanilla or strawberry yogurt and granola"},
+                {"name": "Savory Bacon & Cheddar", "price": "13*", "description": "Chopped bacon, diced onion, tomato, cheddar cheese, and two sunny eggs Served over your choice of rice, farro or quinoa"},
+                {"name": "Cranberry Maple Quinoa", "price": "15", "description": "Quinoa, dried cranberries, apples, bananas, almonds, vanilla yogurt. Served with pure maple syrup on the side"},
+                {"name": "Kale Quinoa", "price": "13*", "description": "Quinoa, squash, kale, chickpeas, and Asiago. Topped with two sunny eggs and a tomatillo drizzle"},
+                {"name": "Mediterranean Quinoa", "price": "13*", "description": "Fresh spinach topped with quinoa, feta, tomatoes, chickpeas, and two sunny eggs"}  
             ],
 
             "bowlAdds": [
-                {"name": "Poached Egg... 2 Avocado", "price": "$2.50", "description": ""},
-                {"name": "Salmon Cakes, Shrimp or Steak", "price": "$5.00", "description": ""},
-                {"name": "Cheddar & Mozzarella, Feta or Gorgonzola", "price": "$.85", "description": ""},
-                {"name": "Impossible Meat (v), Tofu, Buffalo Chicken, or Chicken... 4 falafel", "price": "$3.00", "description": ""}
+                {"name": "Poached Egg... 2 Avocado", "price": "2.50", "description": ""},
+                {"name": "Salmon Cakes, Shrimp or Steak", "price": "5.00", "description": ""},
+                {"name": "Cheddar & Mozzarella, Feta or Gorgonzola", "price": ".85", "description": ""},
+                {"name": "Impossible Meat (v), Tofu, Buffalo Chicken, or Chicken... 4 falafel", "price": "3.00", "description": ""}
             ],
 
             "soups": [
-                {"name": "Vegan Cashew Chilli", "price": "$3.95/6.95", "description": ""},
-                {"name": "Onion French Soup", "price": "$3.95/6.95", "description": ""},
-                {"name": "Soup Du Jour", "price": "$3.95/6.95", "description": ""},
-                {"name": "Add a Side Salad", "price": "$3.50", "description": ""},
-                {"name": "Make it a Samsara", "price": "$3.95/6.95", "description": "Bowl of Soup or Simple Side Salad with a Half Sandwich. Choose from: Deluxe Grilled Cheese, Cape Codder, Avocado & Havarti Melt or a Tuna & Swiss Melt. Served with chips and a pickle."}  
+                {"name": "Vegan Cashew Chilli", "price": "3.95/6.95", "description": ""},
+                {"name": "Onion French Soup", "price": "3.95/6.95", "description": ""},
+                {"name": "Soup Du Jour", "price": "3.95/6.95", "description": ""},
+                {"name": "Add a Side Salad", "price": "3.50", "description": ""},
+                {"name": "Make it a Samsara", "price": "3.95/6.95", "description": "Bowl of Soup or Simple Side Salad with a Half Sandwich. Choose from: Deluxe Grilled Cheese, Cape Codder, Avocado & Havarti Melt or a Tuna & Swiss Melt. Served with chips and a pickle."}  
             ],
             
             "crispy": [
-                {"name": "French Fries", "price": "$5", "description": ""},
-                {"name": "Spicy Fries", "price": "$5.25", "description": ""},
-                {"name": "Sweet Potato Fries", "price": "$6", "description": ""},
-                {"name": "French Fries", "price": "$5", "description": ""},
-                {"name": "Spicy Fries", "price": "$5.25", "description": ""},
-                {"name": "Sweet Potato Fries", "price": "$6", "description": ""}
+                {"name": "French Fries", "price": "5", "description": ""},
+                {"name": "Spicy Fries", "price": "5.25", "description": ""},
+                {"name": "Sweet Potato Fries", "price": "6", "description": ""},
+                {"name": "French Fries", "price": "5", "description": ""},
+                {"name": "Spicy Fries", "price": "5.25", "description": ""},
+                {"name": "Sweet Potato Fries", "price": "6", "description": ""}
             ],
 
             "shareables": [
-                {"name": "Humus Plate", "price": "$8.50", "description": ""},
-                {"name": "Breakfast Pizza", "price": "$12", "description": ""},
-                {"name": "Butternut Squash Tacos", "price": "$9", "description": ""}, 
-                {"name": "Tomatillo Tacos", "price": "$9", "description": ""},
-                {"name": "Nachos", "price": "$9.50", "description": ""},
-                {"name": "Boneless Buffalo or BBQ Chicken Tenders", "price": "$6", "description": ""},
-                {"name": "Chicken Quesadilla", "price": "$5", "description": ""},
-                {"name": "Portabella Quesadilla", "price": "$5.25", "description": ""}
+                {"name": "Humus Plate", "price": "8.50", "description": ""},
+                {"name": "Breakfast Pizza", "price": "12", "description": ""},
+                {"name": "Butternut Squash Tacos", "price": "9", "description": ""}, 
+                {"name": "Tomatillo Tacos", "price": "9", "description": ""},
+                {"name": "Nachos", "price": "9.50", "description": ""},
+                {"name": "Boneless Buffalo or BBQ Chicken Tenders", "price": "6", "description": ""},
+                {"name": "Chicken Quesadilla", "price": "5", "description": ""},
+                {"name": "Portabella Quesadilla", "price": "5.25", "description": ""}
             ],
 
             "salads": [
-                {"name": "Trident Signature Salad", "price": "$10.95", "description": "Dried cranberries, mandarin oranges, almonds, and Gorgonzola over mixed greens"},
-                {"name": "Classic Ceasar", "price": "$10.95", "description": "Another nice burger"},
-                {"name": "Trident Chicken Salad", "price": "$10.95", "description": "yes!"},
-                {"name": "Carpese", "price": "$10.95", "description": "Fresh creamy mozzarella, tomatoes, and walnut pesto on a bed of mesclun greens"},
-                {"name": "Trident Cobb", "price": "$10.95", "description": "Cheddar, mozzarella, bacon, avocado, tomato, onion, and cucumber on a bed of green leaf lettuce"},
-                {"name": "Crunchy Western Ranch", "price": "$10.95", "description": "Corn, black beans, cheddar, tortilla chips, tomato, avocado, and mixed lettuces. Served with ranch dressing"},
-                {"name": "Beet & Arugula Salad", "price": "$10.95", "description": "Beet, walnut, apple, shaved fennel, and feta cheese over a bed of arugula"},  
-                {"name": "Greek", "price": "$10.95", "description": "Chickpeas, pepperoncini, kalamata olives, cucumber, tomato, feta, and over fresh spinach"}    
+                {"name": "Trident Signature Salad", "price": "10.95", "description": "Dried cranberries, mandarin oranges, almonds, and Gorgonzola over mixed greens"},
+                {"name": "Classic Ceasar", "price": "10.95", "description": "Another nice burger"},
+                {"name": "Trident Chicken Salad", "price": "10.95", "description": "yes!"},
+                {"name": "Carpese", "price": "10.95", "description": "Fresh creamy mozzarella, tomatoes, and walnut pesto on a bed of mesclun greens"},
+                {"name": "Trident Cobb", "price": "10.95", "description": "Cheddar, mozzarella, bacon, avocado, tomato, onion, and cucumber on a bed of green leaf lettuce"},
+                {"name": "Crunchy Western Ranch", "price": "10.95", "description": "Corn, black beans, cheddar, tortilla chips, tomato, avocado, and mixed lettuces. Served with ranch dressing"},
+                {"name": "Beet & Arugula Salad", "price": "10.95", "description": "Beet, walnut, apple, shaved fennel, and feta cheese over a bed of arugula"},  
+                {"name": "Greek", "price": "10.95", "description": "Chickpeas, pepperoncini, kalamata olives, cucumber, tomato, feta, and over fresh spinach"}    
             ],
 
             "burgers": [
-                {"name": "The Beyond Burger", "price": "$16.95", "description": "A revolutionary burger that looks, cooks, & satisfies like beef"},
-                {"name": "Turkey Burger", "price": "$12.95", "description": "Handmade turkey patty with lettuce, tomato, onion, and cranberry mayo on the side"},
-                {"name": "Ranchero", "price": "$4", "description": "Ground beef mixed with peppers and spices, topped with arugula and a spicy guacamole on Focaccia"},
-                {"name": "The Impossible Burger", "price": "$18.95", "description": "Plant-based burger that mimics real meat & sizzles on the grill"}, 
-                {"name": "Black Bean", "price": "$12.95", "description": "Made from scratch & served with fresh homemade salsa on the side"},
-                {"name": "Trident Burger", "price": "$12.95", "description": "Juicy all-beef hamburger with lettuce, tomato, and onion on the side"},
-                {"name": "Salmon", "price": "$13.95", "description": "Delicious hand made panko-crusted patty of seasoned salmon & haddock"}
+                {"name": "The Beyond Burger", "price": "16.95", "description": "A revolutionary burger that looks, cooks, & satisfies like beef"},
+                {"name": "Turkey Burger", "price": "12.95", "description": "Handmade turkey patty with lettuce, tomato, onion, and cranberry mayo on the side"},
+                {"name": "Ranchero", "price": "4", "description": "Ground beef mixed with peppers and spices, topped with arugula and a spicy guacamole on Focaccia"},
+                {"name": "The Impossible Burger", "price": "18.95", "description": "Plant-based burger that mimics real meat & sizzles on the grill"}, 
+                {"name": "Black Bean", "price": "12.95", "description": "Made from scratch & served with fresh homemade salsa on the side"},
+                {"name": "Trident Burger", "price": "12.95", "description": "Juicy all-beef hamburger with lettuce, tomato, and onion on the side"},
+                {"name": "Salmon", "price": "13.95", "description": "Delicious hand made panko-crusted patty of seasoned salmon & haddock"}
             ],
 
             "burgerAdds": [
-                {"name": "Cheddar, Dill Harvati, Provolone, smoked gouda, feta or swiss", "price": "$0.85", "description": ""},
-                {"name": "Jalapeños, Green Peppers, or Spinach", "price": "$0.85", "description": ""},
-                {"name": "Avocado, sautéed mushrooms, hummus, bacon, or turkey bacon", "price": "$.85", "description": ""},
-                {"name": "fried egg", "price": "$2.75", "description": ""}
+                {"name": "Cheddar, Dill Harvati, Provolone, smoked gouda, feta or swiss", "price": "0.85", "description": ""},
+                {"name": "Jalapeños, Green Peppers, or Spinach", "price": "0.85", "description": ""},
+                {"name": "Avocado, sautéed mushrooms, hummus, bacon, or turkey bacon", "price": ".85", "description": ""},
+                {"name": "fried egg", "price": "2.75", "description": ""}
             ],
 
             "sandwiches": [
-                {"name": "Deluxe Grilled Cheese", "price": "$11.95", "description": "Nice burger"},
-                {"name": "Cape Codder", "price": "$12.95", "description": "Another nice burger"},
-                {"name": "Baha Chicken", "price": "$13.95", "description": "yes!"}, 
-                {"name": "Chimato", "price": "$13.95", "description": "Nice burger"},
-                {"name": "Spicy Korean BBQ Sandwich", "price": "$13.95", "description": "Another nice burger"},
-                {"name": "French Dip", "price": "$13.95", "description": "yes!"},
-                {"name": "Prosciutto & Brie", "price": "$13.95", "description": "Nice burger"},
-                {"name": "Falafel Wrap", "price": "$12.95", "description": "Another nice burger"},
-                {"name": "Turvacado", "price": "$12.95", "description": "yes!"},
-                {"name": "Fresh Mozzarella B.L.T", "price": "$11.95", "description": "Nice burger"},
-                {"name": "Spicy Turkey Club", "price": "$13.95", "description": "Another nice burger"},
-                {"name": "Avocado & Harvati Melt", "price": "$12.95", "description": "yes!"},
-                {"name": "Tuna & Swiss Melt", "price": "$11.95", "description": "yes!"} 
+                {"name": "Deluxe Grilled Cheese", "price": "11.95", "description": "Nice burger"},
+                {"name": "Cape Codder", "price": "12.95", "description": "Another nice burger"},
+                {"name": "Baha Chicken", "price": "13.95", "description": "yes!"}, 
+                {"name": "Chimato", "price": "13.95", "description": "Nice burger"},
+                {"name": "Spicy Korean BBQ Sandwich", "price": "13.95", "description": "Another nice burger"},
+                {"name": "French Dip", "price": "13.95", "description": "yes!"},
+                {"name": "Prosciutto & Brie", "price": "13.95", "description": "Nice burger"},
+                {"name": "Falafel Wrap", "price": "12.95", "description": "Another nice burger"},
+                {"name": "Turvacado", "price": "12.95", "description": "yes!"},
+                {"name": "Fresh Mozzarella B.L.T", "price": "11.95", "description": "Nice burger"},
+                {"name": "Spicy Turkey Club", "price": "13.95", "description": "Another nice burger"},
+                {"name": "Avocado & Harvati Melt", "price": "12.95", "description": "yes!"},
+                {"name": "Tuna & Swiss Melt", "price": "11.95", "description": "yes!"} 
             ],
            
             "fromTheGriddle": [
-                {"name": "Malted Belgian Waffle", "price": "$9.95", "description": "Topped with whipped cream and your choice of bananas or strawberries. Add granola, extra strawberries, or extra bananas for 1.65 each"},
-                {"name": "Chicken & Waffles", "price": "$14", "description": "Crispy chicken tenders on a malted Belgian waffle. Served with homemade white gravy"},
-                {"name": "Buttermilk Pankcakes", "price": "$9", "description": "Two large fluffy pancakes. Add blueberries, strawberries, granola, chocolate chips, or banana in or on the side for 1.65 each"},
-                {"name": "Challah Bread French Toast", "price": "$9.95", "description": "Delicious Challah bread dipped in cinnamon egg batter, and grilled to perfection. Add strawberries, granola, chocolate chips, or bananas on the side for 1.65 each"},
-                {"name": "Lemon Ricotta Stuffed French Toast", "price": "$11.95", "description": "Tart & creamy, our thick sliced Challah Bread with lemon cheese filling comes topped with blueberry sauce"},
-                {"name": "Morning Monte Cristo", "price": "$10.95*", "description": "Two fried eggs, Canadian bacon, raspberry preserves, and cheddar cheese sandwiched between two slices of Challah bread French toast"} 
+                {"name": "Malted Belgian Waffle", "price": "9.95", "description": "Topped with whipped cream and your choice of bananas or strawberries. Add granola, extra strawberries, or extra bananas for 1.65 each"},
+                {"name": "Chicken & Waffles", "price": "14", "description": "Crispy chicken tenders on a malted Belgian waffle. Served with homemade white gravy"},
+                {"name": "Buttermilk Pankcakes", "price": "9", "description": "Two large fluffy pancakes. Add blueberries, strawberries, granola, chocolate chips, or banana in or on the side for 1.65 each"},
+                {"name": "Challah Bread French Toast", "price": "9.95", "description": "Delicious Challah bread dipped in cinnamon egg batter, and grilled to perfection. Add strawberries, granola, chocolate chips, or bananas on the side for 1.65 each"},
+                {"name": "Lemon Ricotta Stuffed French Toast", "price": "11.95", "description": "Tart & creamy, our thick sliced Challah Bread with lemon cheese filling comes topped with blueberry sauce"},
+                {"name": "Morning Monte Cristo", "price": "10.95*", "description": "Two fried eggs, Canadian bacon, raspberry preserves, and cheddar cheese sandwiched between two slices of Challah bread French toast"} 
             ],
 
             "drinks": [
@@ -166,41 +166,41 @@
             ],
 
             "hotDrinks": [
-                {"name": "Expresso", "price": "$1", "description": "Macchiatos & Americanos available! Here goes a short description of our 'Expresso'"},
-                {"name": "House Blend Coffee", "price": "$2", "description": "Our own medium roast blend. Refills .75 (Bottomless cup with food)"},
-                {"name": "Cappuccino", "price": "$3", "description": "Topped with cocoa"},
-                {"name": "Viennese Expresso", "price": "$1", "description": "Espresso & coffee topped with whipped cream & cocoa"},
-                {"name": "Latte", "price": "$2", "description": "Mocha: add .50 , Pumpkin spice or Vermont maple: add .75"},
-                {"name": "Chocolatino", "price": "$3", "description": "Espresso with steamed chocolate milk. Topped with whipped cream, cocoa, & chocolate syrup"},
-                {"name": "Café Au Lait", "price": "$1", "description": "House coffee & steamed milk"},
-                {"name": "Maki Latte", "price": "$2", "description": "Espresso, steamed milk, & foam layered in a tall glass. Only served hot & in house"},
+                {"name": "Expresso", "price": "1", "description": "Macchiatos & Americanos available! Here goes a short description of our 'Expresso'"},
+                {"name": "House Blend Coffee", "price": "2", "description": "Our own medium roast blend. Refills .75 (Bottomless cup with food)"},
+                {"name": "Cappuccino", "price": "3", "description": "Topped with cocoa"},
+                {"name": "Viennese Expresso", "price": "1", "description": "Espresso & coffee topped with whipped cream & cocoa"},
+                {"name": "Latte", "price": "2", "description": "Mocha: add .50 , Pumpkin spice or Vermont maple: add .75"},
+                {"name": "Chocolatino", "price": "3", "description": "Espresso with steamed chocolate milk. Topped with whipped cream, cocoa, & chocolate syrup"},
+                {"name": "Café Au Lait", "price": "1", "description": "House coffee & steamed milk"},
+                {"name": "Maki Latte", "price": "2", "description": "Espresso, steamed milk, & foam layered in a tall glass. Only served hot & in house"},
                
-                {"name": "Chai Latte", "price": "$4.25", "description": "Black tea flavored with honey, vanilla, ginger & natural spices. Steamed with milk (also available iced)"},
-                {"name": "Yerba Matte or Rooibos Latte", "price": "$4.75", "description": "Two shots of tea with steamed soy milk & a shot of vanilla syrup"},
+                {"name": "Chai Latte", "price": "4.25", "description": "Black tea flavored with honey, vanilla, ginger & natural spices. Steamed with milk (also available iced)"},
+                {"name": "Yerba Matte or Rooibos Latte", "price": "4.75", "description": "Two shots of tea with steamed soy milk & a shot of vanilla syrup"},
                
-                {"name": "Hot Chocolate", "price": "$2.95/3.95", "description": ""},
-                {"name": "White Hot Chocolate", "price": "$3.95/4.95", "description": ""},
-                {"name": "Steamer", "price": "$2.95", "description": "Jumbo Steamed Milk"},
-                {"name": "Hot Mulled Cider", "price": "$2.95/3.95", "description": ""}
+                {"name": "Hot Chocolate", "price": "2.95/3.95", "description": ""},
+                {"name": "White Hot Chocolate", "price": "3.95/4.95", "description": ""},
+                {"name": "Steamer", "price": "2.95", "description": "Jumbo Steamed Milk"},
+                {"name": "Hot Mulled Cider", "price": "2.95/3.95", "description": ""}
             ],
 
             "coldDrinks": [
-                {"name": "Rao's Cold Brewed Iced Coffee", "price": "$4", "description": ""},
-                {"name": "Mem Cold Brewed Iced Tea", "price": "$3", "description": "Black, Moroccan Mint Green, or Hibiscus Blend Herbal"},
-                {"name": "Sparkling water: Polar Spring or Perrier", "price": "$1.95/2.95", "description": ""},
-                {"name": "Coke, Diet Coke, Sprite, Ginger Ale, Club Soda", "price": "$2", "description": ""}
+                {"name": "Rao's Cold Brewed Iced Coffee", "price": "4", "description": ""},
+                {"name": "Mem Cold Brewed Iced Tea", "price": "3", "description": "Black, Moroccan Mint Green, or Hibiscus Blend Herbal"},
+                {"name": "Sparkling water: Polar Spring or Perrier", "price": "1.95/2.95", "description": ""},
+                {"name": "Coke, Diet Coke, Sprite, Ginger Ale, Club Soda", "price": "2", "description": ""}
             ],
             
             "Smoothies and Frappes": [
-                {"name": "Smoothie: Choose a Smootie Base", "price": "$5.95", "description": "Whole or skim milk; orange, pineapple or grapefruit juice; soy, almond or oat milk (+ .95)"},
-                {"name": "Smoothie: Chose two bases", "price": "$5.95", "description": "Strawberry, Banana, Kale, Mango, Apple, Spinach, Mixed Berries. 1.25 for each addition beyond two. (Add Yogurt, Vanilla or Chocolate Ice Cream for 2.95 each, Add Chai for 1.95, or Espresso for 1.5)"},            
-                {"name": "Frappe 1", "price": "$0", "description": "Description of Frappe 1 goes here"}
+                {"name": "Smoothie: Choose a Smootie Base", "price": "5.95", "description": "Whole or skim milk; orange, pineapple or grapefruit juice; soy, almond or oat milk (+ .95)"},
+                {"name": "Smoothie: Chose two bases", "price": "5.95", "description": "Strawberry, Banana, Kale, Mango, Apple, Spinach, Mixed Berries. 1.25 for each addition beyond two. (Add Yogurt, Vanilla or Chocolate Ice Cream for 2.95 each, Add Chai for 1.95, or Espresso for 1.5)"},            
+                {"name": "Frappe 1", "price": "0", "description": "Description of Frappe 1 goes here"}
             ], 
 
             "alcoholDrinks": [
-                {"name": "Alcohol Drink 1", "price": "$1", "description": "This data is to be added"},
-                {"name": "Alcohol Drink 2", "price": "$1", "description": "This data is to be added"},
-                {"name": "Alcohol Drink 3", "price": "$1", "description": "This data is to be added"}
+                {"name": "Alcohol Drink 1", "price": "1", "description": "This data is to be added"},
+                {"name": "Alcohol Drink 2", "price": "1", "description": "This data is to be added"},
+                {"name": "Alcohol Drink 3", "price": "1", "description": "This data is to be added"}
             ]
         }
     }
