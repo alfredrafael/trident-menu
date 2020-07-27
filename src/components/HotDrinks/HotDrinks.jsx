@@ -33,95 +33,102 @@ const HotDrinks = () => {
   const renderDrinks = hotDrinks.map((item, i) => {
     return (
       <div key={i} className="col-md-6 col-sm-12">
-        <a href={item.url} style={{ textDecoration: "none", color: "inherit" }}>
-          <Card
-            key={i}
-            className="highlight-on-hover"
-            style={{ margin: "2% 1%", borderRadius: "15px" }}
+      <a href={item.url} style={{ textDecoration: "none", color: "inherit" }}>
+        <Card
+          key={i}
+          className="highlight-on-hover"
+          style={{ margin: "2% 1%", borderRadius: "15px", borderRadius: '7px' }}
+        >
+        <CardHeader
+            style={{
+              background: "#7a1f1f",
+              color: "white",
+              height: "20%",
+              borderTopLeftRadius: "7px",
+              borderTopRightRadius: "7px",
+            }}
           >
-            <CardHeader
-              style={{
-                background: "#7a1f1f",
-                color: "white",
-                height: "20%",
-                borderTopLeftRadius: "15px",
-                borderTopRightRadius: "15px",
-              }}
-            >
-              <Row style={{ justifyContent: "space-between" }}>
-                <h4 style={{ margin: "-1% 0", marginLeft: "1.6%" }}>
-                  {item.name}
-                </h4>
-                <small
-                  style={{
-                    fontSize: "105%",
-                    marginRight: "1.6%",
-                    fontWeight: "bold",
-                  }}
-                >
-                  {item.price}
-                </small>
-              </Row>
-            </CardHeader>
-
-            <CardBody style={{}}>
-              <div style={{ display: "flex" }}>
-                <div style={{ flex: "2" }}>
-                  <CardText
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                    {item.description}
-                  </CardText>
-                </div>
-
-                <div style={{ flex: "1", marginRight: "-10%" }}>
-                  <img
-                    src={
-                      "https://www.alfredorafael.com/wp-content/uploads/2020/07/coffee_example.png"
-                    }
-                    style={{
-                      maxWidth: "70%",
-                      borderRadius: "15px",
-                      marginLeft: "5%",
-                    }}
-                  />
-                </div>
-              </div>
-            </CardBody>
-          </Card>
-        </a>
-      </div>
+              <h4 style={{margin: "-1% 0", textAlign: 'center'}}>
+                {item.name}
+              </h4>
+             
+          </CardHeader>
+        <CardImg top width="100%" src={item.image} alt="Card image cap" />
+        <CardBody>
+        <CardText>{item.description}</CardText>
+        <div style={{float: 'right'}}> 
+          {item.price}
+        </div>
+        </CardBody>
+      </Card>
+      </a>
+    </div>
     );
   });
 
   return (
     <React.Fragment>
-      <div style={{ paddingTop: "3%" }}>
-        <h2
-          style={{
-            fontWeight: "bolder",
-            marginBottom: "1%",
+    <Fade>
+
+    <div style={{ paddingTop: "3%" }} id="hotDrinks">
+        
+      <div style={{display: 'flex'}}>
+        
+        
+
+      <h2 style={{
+              fontWeight: 'bolder',
+              marginBottom: '1%',
           }}
-        >
-          Hot Drinks
-          <Button
-            className="my-back-button"
-            style={{
-              marginLeft: "65%",
-              background: "#7a1f1f",
-              color: "white",
-              textDecoration: "none",
-            }}
+      >
+      
+          Hot Drinks 
+          </h2>
+
+
+          <div 
+          style={{display: 'inline', marginLeft: '54.7%'}} 
+          class="float-margin"
           >
-            <a href="/drinks">BACK TO DRINKS</a>
+
+          <Button             
+          className='back-button-outlined back-to-menu' 
+          outline 
+          style={{border: '1px solid #7a1f1f', color: '#7a1f1f'}}
+          href="/"
+          bsClass="custom-hover"
+          size="sm"
+          > 
+
+          <span>BACK TO MENU</span>           
           </Button>
-        </h2>
+          
+          &nbsp;
+          <i class="arrow left" style={{marginBottom: '.5%'}}></i>
+          &nbsp;
+          
+          <Button             
+          className='back-button-outlined' 
+          outline 
+          style={{border: '1px solid #7a1f1f', color: '#7a1f1f'}}
+          href="/drinks"
+          bsClass="custom-hover"
+          size="sm"
+          > 
+          <span>BACK TO DRINKS</span>           
+          </Button>
+      
+          </div>
+          </div>
+
 
         <div className="row">
           <br />
           {renderDrinks}
         </div>
       </div>
+      </Fade>
+    
     </React.Fragment>
   );
 };

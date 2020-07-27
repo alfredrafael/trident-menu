@@ -16,6 +16,7 @@ import Eggwagons from './components/Eggwagons';
 import TridentBowls from './components/TridentBowls';
 import BreakfastBowls from './components/BreakfastBowls';
 import HotDrinks from './components/HotDrinks';
+import ColdDrinks from './components/ColdDrinks';
 import Aside from './components/Aside';
 import './components/Aside/aside.css';
 
@@ -48,6 +49,8 @@ const App = () => {
           <Route path="/sandwiches" component={Sandwiches} />
           <Route path="/breakfast-bowls" component={BreakfastBowls} />
           <Route path="/hot-drinks" component={HotDrinks} />
+          <Route path="/cold-drinks" component={ColdDrinks} />
+
 
           {/* Alcohol/Cold/Hot/Frappes drinks: create components and add here*/}
 
@@ -64,8 +67,7 @@ const App = () => {
           style={{
             maxWidth: '20%', 
             marginLeft:'3%',
-            marginTop: '7%'
-          
+            marginTop: '7%',
           }}>
             
             <Aside/>

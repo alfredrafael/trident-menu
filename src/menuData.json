@@ -5,7 +5,7 @@
             "categories": [
                 {"name": "Beverages", "description": "Coffee, or tea? A smoothie or a beer? How about wine? Find your drink here", "categoryUrl": "/drinks"},
                 {"name": "Egg Dishes", "description": "Select among our hearthy omeletts, eggs benny and scramble egg dishes", "categoryUrl": "/egg-dishes"},
-                {"name": "Trident Eggwagons", "description": "Take a look at our Eggwagons selection", "categoryUrl": "/eggwagons"},
+                {"name": "Trident Eggwagons", "description": "Take a look at our Eggwagons selection! Here goes more information", "categoryUrl": "/eggwagons"},
                 {"name": "From The Griddle", "description": "Here goes a short description of our 'From the Griddle' category", "categoryUrl": "/from-the-griddle"},
                 {"name": "Extras", "description": "Here goes a short description of our 'From the Griddle' category", "categoryUrl": "/extras"},
                 {"name": "Breakfast bowls", "description": "Here goes a short description of our 'Breakfast Bowls'", "categoryUrl": "/breakfast-bowls"},
@@ -54,7 +54,7 @@
                 {"name": "Choose Your Own Eggventure!", "price": "12.50*", "description": "Three scrambled eggs served with home fries, an English muffin, and coffee"} 
             ],
 
-            "tridentEggwagons": [
+            "eggwagons": [
                 {"name": "Homemade corned beef hash & eggs", "price": "13.95*", "description": "Made with shredded brisket, potatoes, onions, cabbage, celery, carrots, and garlic. Topped with two eggs any style. Served with sourdough toast"},
                 {"name": "Smoked Salmon Scramble", "price": "13.95*", "description": "Smoked salmon scrambled with three eggs & chives. Served with a bagel & cream cheese"},
                 {"name": "The Breakfast Skillet", "price": "12.95*", "description": "Three eggs scrambled, sautéed with mushrooms & chicken-apple sausage or Beyond Sausage (v), and topped with Asiago cheese. Served with sourdough toast"}, 
@@ -166,35 +166,34 @@
             ],
 
             "hotDrinks": [
-                {"name": "Expresso", "price": "1", "description": "Macchiatos & Americanos available! Here goes a short description of our 'Expresso'"},
-                {"name": "House Blend Coffee", "price": "2", "description": "Our own medium roast blend. Refills .75 (Bottomless cup with food)"},
-                {"name": "Cappuccino", "price": "3", "description": "Topped with cocoa"},
-                {"name": "Viennese Expresso", "price": "1", "description": "Espresso & coffee topped with whipped cream & cocoa"},
-                {"name": "Latte", "price": "2", "description": "Mocha: add .50 , Pumpkin spice or Vermont maple: add .75"},
-                {"name": "Chocolatino", "price": "3", "description": "Espresso with steamed chocolate milk. Topped with whipped cream, cocoa, & chocolate syrup"},
-                {"name": "Café Au Lait", "price": "1", "description": "House coffee & steamed milk"},
-                {"name": "Maki Latte", "price": "2", "description": "Espresso, steamed milk, & foam layered in a tall glass. Only served hot & in house"},
+                {"name": "Espresso", "price": "2.95", "description": "Macchiatos & Americanos available! Here goes a short description", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "House Blend Coffee", "price": "2.50", "description": "Our own medium roast blend. Refills .75 (Bottomless cup with food)", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Cappuccino", "price": "4.50", "description": "Topped with cocoa", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Viennese Expresso", "price": "4.50", "description": "Espresso & coffee topped with whipped cream & cocoa", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Latte", "price": "4.75", "description": "Mocha: add .50 , Pumpkin spice or Vermont maple: add .75", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Chocolatino", "price": "4.95", "description": "Espresso with steamed chocolate milk. Topped with whipped cream, cocoa, & chocolate syrup", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Maki Latte", "price": "2", "description": "Espresso, steamed milk, & foam layered in a tall glass. Only served hot & in house", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
                
-                {"name": "Chai Latte", "price": "4.25", "description": "Black tea flavored with honey, vanilla, ginger & natural spices. Steamed with milk (also available iced)"},
-                {"name": "Yerba Matte or Rooibos Latte", "price": "4.75", "description": "Two shots of tea with steamed soy milk & a shot of vanilla syrup"},
+                {"name": "Chai Latte", "price": "4.25", "description": "Black tea flavored with honey, vanilla, ginger & natural spices. Steamed with milk (also available iced)", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Yerba Matte or Rooibos Latte", "price": "4.75", "description": "Two shots of tea with steamed soy milk & a shot of vanilla syrup", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
                
-                {"name": "Hot Chocolate", "price": "2.95/3.95", "description": ""},
-                {"name": "White Hot Chocolate", "price": "3.95/4.95", "description": ""},
-                {"name": "Steamer", "price": "2.95", "description": "Jumbo Steamed Milk"},
-                {"name": "Hot Mulled Cider", "price": "2.95/3.95", "description": ""}
+                {"name": "Hot Chocolate", "price": "2.95/3.95", "description": "", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "White Hot Chocolate", "price": "3.95/4.95", "description": "", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Steamer", "price": "2.95", "description": "Jumbo Steamed Milk", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Hot Mulled Cider", "price": "2.95/3.95", "description": "", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"}
             ],
 
             "coldDrinks": [
-                {"name": "Rao's Cold Brewed Iced Coffee", "price": "4", "description": ""},
-                {"name": "Mem Cold Brewed Iced Tea", "price": "3", "description": "Black, Moroccan Mint Green, or Hibiscus Blend Herbal"},
-                {"name": "Sparkling water: Polar Spring or Perrier", "price": "1.95/2.95", "description": ""},
-                {"name": "Coke, Diet Coke, Sprite, Ginger Ale, Club Soda", "price": "2", "description": ""}
+                {"name": "Rao's Iced Coffee", "price": "4", "description": "Description of this cold brew coffee goes here, in this location", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/coldCoffeeExample.png"},
+                {"name": "Mem Cold Brewed Iced Tea", "price": "3", "description": "Black, Moroccan Mint Green, or Hibiscus Blend Herbal", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/coldCoffeeExample.png"},
+                {"name": "Polar Spring or Perrier", "price": "1.95/2.95", "description": ""},
+                {"name": "Coke, DietCoke, Sprite, Ginger Ale", "price": "2", "description": ""}
             ],
             
             "Smoothies and Frappes": [
-                {"name": "Smoothie: Choose a Smootie Base", "price": "5.95", "description": "Whole or skim milk; orange, pineapple or grapefruit juice; soy, almond or oat milk (+ .95)"},
-                {"name": "Smoothie: Chose two bases", "price": "5.95", "description": "Strawberry, Banana, Kale, Mango, Apple, Spinach, Mixed Berries. 1.25 for each addition beyond two. (Add Yogurt, Vanilla or Chocolate Ice Cream for 2.95 each, Add Chai for 1.95, or Espresso for 1.5)"},            
-                {"name": "Frappe 1", "price": "0", "description": "Description of Frappe 1 goes here"}
+                {"name": "Smoothie: Choose a Smootie Base", "price": "5.95", "description": "Whole or skim milk; orange, pineapple or grapefruit juice; soy, almond or oat milk (+ .95)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"},
+                {"name": "Smoothie: Chose two bases", "price": "5.95", "description": "Strawberry, Banana, Kale, Mango, Apple, Spinach, Mixed Berries. 1.25 for each addition beyond two. (Add Yogurt, Vanilla or Chocolate Ice Cream for 2.95 each, Add Chai for 1.95, or Espresso for 1.5)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"},            
+                {"name": "Frappe 1", "price": "0", "description": "Description of Frappe 1 goes here", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"}
             ], 
 
             "alcoholDrinks": [

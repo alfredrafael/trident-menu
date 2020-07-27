@@ -37,8 +37,9 @@ const NavigationBar = (props) => {
       <Navbar style={{background: 'white'}} color="" light expand="md" sticky={'top'} className="fixed-top">
       <Container>
 
-      {/* Start working with its mobile version: removes aside, social icons smaller, add links to current page(s), more components, more real data... */}
-        <NavbarBrand style={{width: '80%', marginRight: '-23%'}} href="/">
+
+
+        <NavbarBrand style={{width: '80%', marginRight: '-31%'}} href="/">
           <img 
           src='https://www.alfredorafael.com/wp-content/uploads/2020/07/Alfredo_LogoAndText_Trident.png' 
           style={{
@@ -66,6 +67,11 @@ const NavigationBar = (props) => {
             </NavItem>
 
 
+
+            <NavItem>
+              <NavLink href="/">Menu</NavLink>
+            </NavItem>
+
             
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
@@ -73,8 +79,15 @@ const NavigationBar = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  <a style={{fontWeight: '200', textDecoration: 'none'}} href="https://www.toasttab.com/the-trident/v3#!/"> Trident Delivery & Pickup</a>
+                  <a 
+                    style={{fontWeight: '200', textDecoration: 'none'}} 
+                    href="https://www.toasttab.com/the-trident/v3#!/"
+                  >   
+                    Trident Delivery & Pickup
+                  </a>
+
                 </DropdownItem>
+                
                 <DropdownItem onClick={onConstructionMessage}>
                   Third Party Delivery Partners
                 </DropdownItem>
@@ -82,28 +95,32 @@ const NavigationBar = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
 
-
             <UncontrolledDropdown nav inNavbar>
+
             <DropdownToggle nav caret>
               More
             </DropdownToggle>
+
             <DropdownMenu right>
+
               <DropdownItem>
-                Books
+              <a style={{fontWeight: '200', textDecoration: 'none'}} href="https://www.tridentbookscafe.com/online-store"> Books </a>
               </DropdownItem>
               <DropdownItem>
-                Gifts
+              <a style={{fontWeight: '200', textDecoration: 'none'}} href="https://www.tridentbookscafe.com/gifts"> Gifts </a>
               </DropdownItem>
-              <DropdownItem divider />
               <DropdownItem>
-                Cards
+              <a style={{fontWeight: '200', textDecoration: 'none'}} href="https://www.tridentbookscafe.com/trident-books-cafe-gift-card"> Gift Cards </a>
+              </DropdownItem>
+              <DropdownItem>
+              <a style={{fontWeight: '200', textDecoration: 'none'}} href="https://www.tridentbookscafe.com/greeting-cards"> Greeting Cards </a>
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
 
 
           <NavItem>
-              <NavLink href="https://www.tridentbookscafe.com/user?destination=node/11">Sign In</NavLink>
+              <NavLink href="https://www.tridentbookscafe.com/user?destination=node/11">My Account</NavLink>
           </NavItem>
 
 
@@ -119,7 +136,7 @@ const NavigationBar = (props) => {
 {/*      <NavbarText>Simple Text</NavbarText>  */}
         </Collapse>
         <div>
-          <div className="d-inline-block align-top" style={{}}>
+          <div className="social-media-icons-container" style={{}}>
   
           <ul class="social-icons icon-circle list-unstyled list-inline"
           style={{display: 'flex', justifyContent: 'space-between', paddingTop: '3.4%'}}

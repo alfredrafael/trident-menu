@@ -1,3 +1,189 @@
 #app-js {
-    background: linear-gradient(azure, white) !important;
+    /* background: linear-gradient(azure, white) !important; */
+    background: linear-gradient(#e9e8e8, white) !important;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+.arrow {
+    border: solid #7a1f1f;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.back-button-outlined:hover {
+    background-color: #7a1f1f !important;
+    color: white !important;
+}
+
+
+
+
+/*iPhone 5*/
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    
+    #app-js {
+        /* overflow-x: hidden !important; */
+    }
+    .navbar {
+        overflow: hidden !important
+    }
+
+    .social-icons .fa {
+        font-size: 1em !important;
+    }
+    /*Change icons circle size and color here*/
+    .social-icons .fa {
+        width: 40px !important;
+	    height: 40px !important;
+	    line-height: 40px !important;
+    }
+
+    .social-media-icons-container {
+        margin-bottom: -7%;
+    }
+    .navbar-brand {
+        min-width: 160% !important;
+    }
+
+    #categories h2,
+    #drinks h2,
+    #hotDrinks h2,
+    #coldDrinks h2,
+    #eggDishes h2,
+    #eggWagons h2,
+    #fromTheGriddle h2 {
+        font-size: 115%;
+        margin: 7% 0 !important;
+        text-align: center;
+    }
+
+    #drinks .float-margin {
+        margin-left: 16% !important;
+        padding-top: 6.1%;
+    }
+
+    #hotDrinks .float-margin {
+        margin-left: 12% !important;
+        padding-top: 6.1%;
+    }
+
+    #hotDrinks .back-to-menu,
+    #coldDrinks .back-to-menu,
+    #burgers .back-to-menu
+    {
+        display: none;
+    }
+
+    #coldDrinks .float-margin {
+        margin-left: 12% !important;
+        padding-top: 6.1%;
+    }
+
+    #eggDishes .float-margin {
+        margin-left: 16% !important;
+        padding-top: 6.1%;
+    }
+
+    #eggWagons .float-margin {
+        margin-left: 0% !important;
+        padding-top: 0%;
+    }
+    #eggWagons i,
+    #fromTheGriddle i {
+        display: none;
+    }
+
+    #fromTheGriddle .float-margin {
+        margin-left: 0% !important;
+        padding-top: 5.20%;
+    }
+}
+
+
+
+
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+   
+    #app-js {
+        /* overflow-x: hidden !important; */
+    }
+    .navbar {
+        overflow: hidden !important
+    }
+
+    .social-icons .fa {
+        font-size: 1em !important;
+    }
+    /*Change icons circle size and color here*/
+    .social-icons .fa {
+        width: 40px !important;
+	    height: 40px !important;
+	    line-height: 40px !important;
+    }
+
+    .social-media-icons-container {
+        margin-bottom: -7%;
+    }
+    .navbar-brand {
+        min-width: 160% !important;
+    }
+
+    #categories h2,
+    #drinks h2,
+    #hotDrinks h2,
+    #coldDrinks h2,
+    #eggDishes h2,
+    #eggWagons h2,
+    #fromTheGriddle h2 {
+        font-size: 115%;
+        margin: 7% 0 !important;
+        text-align: center;
+    }
+
+    #drinks .float-margin {
+        margin-left: 25% !important;
+        padding-top: 6.1%;
+    }
+
+    #hotDrinks .float-margin {
+        margin-left: 25% !important;
+        padding-top: 6.1%;
+    }
+
+    #hotDrinks .back-to-menu,
+    #coldDrinks .back-to-menu,
+    #burgers .back-to-menu
+    {
+        display: none;
+    }
+
+    #coldDrinks .float-margin {
+        margin-left: 20% !important;
+        padding-top: 6.1%;
+    }
+
+    #eggDishes .float-margin {
+        margin-left: 25% !important;
+        padding-top: 6.1%;
+    }
+
+    #eggWagons .float-margin {
+        margin-left: 5% !important;
+        padding-top: 5.5%;
+    }
+    #eggWagons i,
+    #fromTheGriddle i {
+        display: none;
+    }
+
+    #fromTheGriddle .float-margin {
+        margin-left: 12% !important;
+        padding-top: 5.20%;
+    }
 }

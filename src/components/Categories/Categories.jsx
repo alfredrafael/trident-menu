@@ -42,8 +42,9 @@ const MainMenu = () => {
     return (
   
         <React.Fragment>
+        <Fade>
 
-        <div style={{paddingTop: '3%'}}>
+        <div style={{paddingTop: '3%'}} id="categories">
 
 
         <h2 style={{
@@ -62,6 +63,8 @@ const MainMenu = () => {
 
 
         </div>
+        </Fade>
+
         </React.Fragment>
     );
 }

@@ -2,6 +2,7 @@ import React, {useEffect, useState, Fragment} from 'react';
 import './drinks.css';
 import Aside from '../Aside/Aside';
 import { Card, CardBody, Container, CardTitle, CardText, CardImg, CardImgOverlay, CardHeader, CardFooter, Button } from 'reactstrap';
+import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import menuData from '../../menuData.json';
 import { $ } from 'jquery';
@@ -42,20 +43,47 @@ const Drinks = () => {
     return (
   
         <React.Fragment>
+        <Fade>
 
-        <div style={{paddingTop: '3%'}}>
+        <div style={{paddingTop: '3%'}} id="drinks">
 
+        <div style={{display: 'flex'}}>
+        
+        
 
         <h2 style={{
                 fontWeight: 'bolder',
                 marginBottom: '1%',
-            }}>
+            }}
+        >
         
             Our Drinks 
-            <Button className='my-back-button' style={{marginLeft: '63%', background: '#7a1f1f', color: 'white', textDecoration: 'none'}}> 
-            <a href="/">BACK TO MENU</a></Button>
+            </h2>
+
+
+            <div class="float-margin"
+            style={{display: 'inline', marginLeft: '64%'}} 
+            >
+            
+            &nbsp;
+            <i class="arrow left" style={{marginBottom: '.5%'}}></i>
+            &nbsp;
+            
+            <Button             
+            className='back-button-outlined' 
+            outline 
+            style={{border: '1px solid #7a1f1f', color: '#7a1f1f'}}
+            href="/"
+            bsClass="custom-hover"
+            size="sm"
+            > 
+            <span>BACK TO MENU</span>           
+            </Button>
         
-        </h2>
+            </div>
+            </div>
+
+        
         
             <div className="row">
             <br/>
@@ -69,6 +97,7 @@ const Drinks = () => {
         
         
         </div>
+        </Fade>
         </React.Fragment>
     );
 }
